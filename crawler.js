@@ -20,37 +20,33 @@ mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
 const connection = mongoose.connection;
 
 connection.once("open", async () => {
-  console.log("MongoDB database connection established successfully");
-
   const allOffers = await offers.find({});
+  const urls = allOffers.map((offer) => offer.url);
 
-  console.log(`${allOffers.length} offers fetched`);
+  console.log(`${allOffers.length} offers currently in database`);
 
-  // offers.find({}, (err, result) => {
-  //   if (err) {
-  //     console.log("An error occured during fetching offers");
-  //   } else {
-  //     console.log("offers ", result);
-  //   }
-  // });
+  const noFluffUrl = "https://nofluffjobs.com/pl/jobs/frontend";
+  const noFluffHtml = await fetchPage(noFluffUrl);
+  const noFluffOffers = noFluffMainParser(noFluffHtml).filter(
+    (offer) => !urls.includes(offer.url)
+  );
 
-  // const noFluffUrl = "https://nofluffjobs.com/pl/jobs/frontend";
-  // const html = await fetchPage(noFluffUrl);
-  // const off = noFluffMainParser(html);
+  console.log(`${noFluffOffers.length} new offers on nofluffjobs`);
 
-  // offers.insertMany(off, (err, result) => {
-  //   if (err) {
-  //     console.log("ERROR");
-  //   } else {
-  //     console.log(`OK! ${off.length} offers added`);
-  //   }
-  // });
+  const justJoinUrl = "https://justjoin.it/api/offers";
+  const justJoinHtml = await fetchPage(justJoinUrl);
+  const justJoinOffers = justJoinMainParser(justJoinHtml).filter(
+    (offer) => !urls.includes(offer.url)
+  );
+
+  console.log(`${justJoinOffers.length} new offers on justjoin`);
+
+  const mergedOffers = [...noFluffOffers, ...justJoinOffers];
+
+  if (mergedOffers.length > 0) {
+    await offers.insertMany(mergedOffers);
+    console.log(`${mergedOffers.length} new offers added`);
+  } else {
+    console.log("No new offers!");
+  }
 });
-
-// const noFluffUrl = "https://nofluffjobs.com/pl/jobs/frontend";
-// const html = await fetchPage(noFluffUrl);
-// const offers = noFluffMainParser(html);
-
-//   const url = "https://justjoin.it/api/offers";
-//   const justJoinOffers = await fetchPage(url);
-//   const mappedOffers = justJoinMainParser(justJoinOffers);

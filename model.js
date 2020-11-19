@@ -25,12 +25,11 @@ let offer = new Schema(
     source: {
       type: String,
     },
-
     publishedAt: {
       type: String,
     },
   },
-  { collection: "Offers" }
+  { collection: "Offers", timestamps: true }
 );
 
 module.exports = mongoose.model("offer", offer);
