@@ -1,11 +1,13 @@
 const axios = require("axios");
 const mongoose = require("mongoose");
-require("dotenv").config();
+require("dotenv").config({ path: __dirname + "/.env" });
 const { justJoinMainParser } = require("./offerParsers/justJoinMainParser");
 const { noFluffMainParser } = require("./offerParsers/noFluffMainParser");
 const { sendEmail } = require("./emailService");
 
 const { DB_USER, DB_PASS, DB_PORT, DB_SERVER } = process.env;
+
+console.log("dirname", __dirname);
 
 const offers = require("./model");
 
