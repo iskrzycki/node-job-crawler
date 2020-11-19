@@ -7,8 +7,6 @@ const { sendEmail } = require("./emailService");
 
 const { DB_USER, DB_PASS, DB_PORT, DB_SERVER } = process.env;
 
-console.log("dirname", __dirname);
-
 const offers = require("./model");
 
 const fetchPage = async (url) => await axios(url).then((res) => res.data);
