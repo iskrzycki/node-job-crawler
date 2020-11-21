@@ -49,4 +49,5 @@ connection.once("open", async () => {
   } else {
     console.log("No new offers!");
   }
+  mongoose.disconnect();
 });
