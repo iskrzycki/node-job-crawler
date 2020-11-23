@@ -4,6 +4,7 @@ require("dotenv").config({ path: __dirname + "/.env" });
 const { justJoinMainParser } = require("./offerParsers/justJoinMainParser");
 const { noFluffMainParser } = require("./offerParsers/noFluffMainParser");
 const { sendEmail } = require("./emailService");
+const logger = require("./logger").logger;
 
 const { DB_USER, DB_PASS, DB_PORT, DB_SERVER } = process.env;
 
@@ -23,7 +24,7 @@ connection.once("open", async () => {
   const allOffers = await offers.find({});
   const urls = allOffers.map((offer) => offer.url);
 
-  console.log(`${allOffers.length} offers currently in database`);
+  logger.info(`${allOffers.length} offers currently in database`);
 
   const noFluffUrl = "https://nofluffjobs.com/pl/jobs/frontend";
   const noFluffHtml = await fetchPage(noFluffUrl);
@@ -31,7 +32,7 @@ connection.once("open", async () => {
     (offer) => !urls.includes(offer.url)
   );
 
-  console.log(`${noFluffOffers.length} new offers on nofluffjobs`);
+  logger.info(`${noFluffOffers.length} new offers on nofluffjobs`);
 
   const justJoinUrl = "https://justjoin.it/api/offers";
   const justJoinHtml = await fetchPage(justJoinUrl);
@@ -39,15 +40,15 @@ connection.once("open", async () => {
     (offer) => !urls.includes(offer.url)
   );
 
-  console.log(`${justJoinOffers.length} new offers on justjoin`);
+  logger.info(`${justJoinOffers.length} new offers on justjoin`);
 
   const mergedOffers = [...noFluffOffers, ...justJoinOffers];
 
   if (mergedOffers.length > 0) {
     await offers.insertMany(mergedOffers);
-    console.log(`${mergedOffers.length} new offers added`);
+    logger.info(`${mergedOffers.length} new offers added`);
   } else {
-    console.log("No new offers!");
+    logger.info("No new offers!");
   }
   mongoose.disconnect();
 });
