@@ -1,5 +1,6 @@
 const cheerio = require("cheerio");
 
+// TODO consider moving extractText to kind of helpers file
 const extractText = (elem, path) => elem.find(path).text().trim();
 
 const noFluffMainParser = (html) => {

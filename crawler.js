@@ -9,6 +9,7 @@ const logger = require("./logger").logger;
 const { DB_USER, DB_PASS, DB_PORT, DB_SERVER } = process.env;
 
 const offers = require("./model");
+const { bulldogMainParser } = require("./offerParsers/bulldogMainParser");
 
 const fetchPage = async (url) => await axios(url).then((res) => res.data);
 
@@ -42,7 +43,15 @@ connection.once("open", async () => {
 
   logger.info(`${justJoinOffers.length} new offers on justjoin`);
 
-  const mergedOffers = [...noFluffOffers, ...justJoinOffers];
+  const bulldogUrl = "https://bulldogjob.pl/companies/jobs/s/role,frontend";
+  const bulldogHtml = await fetchPage(bulldogUrl);
+  const bulldogOffers = bulldogMainParser(bulldogHtml).filter(
+    (offer) => !urls.includes(offer.url)
+  );
+
+  logger.info(`${bulldogOffers.length} new offers on bulldogjob`);
+
+  const mergedOffers = [...noFluffOffers, ...justJoinOffers, ...bulldogOffers];
 
   if (mergedOffers.length > 0) {
     await offers.insertMany(mergedOffers);

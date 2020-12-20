@@ -1,0 +1,2688 @@
+
+<!DOCTYPE html>
+<html class='no-js' lang='pl'>
+<head>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<link crossorigin='' href='//cdn.bulldogjob.com' rel='preconnect'>
+<title>Praca programista frontend</title>
+<meta name="description" content="Praca dla programisty frontend. Zobacz oferty pracy ze stackiem technologicznym i widełkami w przedziale 4k-20.8k!">
+<link rel="alternate" href="https://bulldogjob.pl/companies/jobs/s/role,frontend" hreflang="pl">
+<link rel="alternate" href="https://bulldogjob.com/companies/jobs/s/role,frontend" hreflang="en">
+<link rel="canonical" href="https://bulldogjob.pl/companies/jobs/s/role,frontend">
+<meta property="og:title" content="Praca programista frontend">
+<meta property="og:description" content="Praca dla programisty frontend. Zobacz oferty pracy ze stackiem technologicznym i widełkami w przedziale 4k-20.8k!">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://bulldogjob.pl/companies/jobs/s/role,frontend">
+<meta property="og:image" content="https://bulldogjob.pl/assets/main_link-19d4eada52c8a293485bbf3c96deaadc79a5d2a5c54285a66a8dcbf33cfa98b6.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@bulldogjob">
+<script>
+  document.documentElement.classList.remove("no-js");
+  if(typeof FontFace != "undefined"){var font=new FontFace("gotham","url(https://cdn.bulldogjob.com/assets/gothams/Gotham-Book-e54686d35f1032e84fe1f17317625380a99217618b262ef1889f4adb78f96c08.woff2)",{weight:300,style:"normal"});font.load().then(function(){document.fonts.add(font)})};
+</script>
+<link rel="stylesheet" media="all" href="https://cdn.bulldogjob.com/assets/application-f6e6cbc4682431dfe1d5cdebb81d9d718f1cf85ea0fc16a31fbc5d1d5a0d8670.css" />
+
+<script src="https://cdn.bulldogjob.com/assets/application-1248b061798b0771bea4d5c45e8a20e7dad681063030082c303f767ac1ed187a.js" async="async"></script>
+
+<script data-feature='code-highlight' data-url='https://cdn.bulldogjob.com/assets/hljs-299aafdb371b4450c6893b54fa50522552cce6d901b54d325f0eb860222d6e23.js'></script>
+<script data-feature='anime' data-url='https://cdn.bulldogjob.com/assets/anime.min-aaab0f0c6f0aa89a0d84b196cac75398c67e1ffd21b3e2a694bcb2d8295e6e61.js'></script>
+<script data-feature='nested_form' data-url='https://cdn.bulldogjob.com/assets/jquery_nested_form-9045efd2a430b4cd994c10b2a6addca4255234c9e80eac8a8d5169fb35079a44.js'></script>
+<script data-feature='slick-carousel' data-url='https://cdn.bulldogjob.com/assets/slick.min-989ebc6ea09327d3c08fc07c74070a51d061717193b87aa2a4ab37c4dfe6c598.js'></script>
+<script data-feature='file_upload' data-url='https://cdn.bulldogjob.com/assets/file_upload-c040a64216515d585123dfff12a4b65c4dff9028430d3a393d3580eeec3a81e2.js'></script>
+<script data-feature='range_slider' data-url='https://cdn.bulldogjob.com/assets/ion.rangeSlider-f6b3a8775c03b08de66505935faf5f352795d41ff750b93e75416ba10bae2c93.js'></script>
+<script data-feature='fancybox' data-url='https://cdn.bulldogjob.com/assets/fancybox-c252b53bc51d2e5471b64c94ad4e460b8b5176381eb92e745b49320ad76ebe66.js'></script>
+<script data-feature='tagify' data-url='https://cdn.bulldogjob.com/assets/jQuery.tagify.min-09def87d872016819e6f6fed456b1b6997e9b1523efa8cddaf849d6bf78d28ce.js'></script>
+<script data-feature='yt-seekable-video' data-url='https://cdn.bulldogjob.com/assets/youtube_seek_to-e1a2ab8fb07b140cf0ffe2a1bfe06dd3ac47e2cb1d41f16dca5326dd7fdb7924.js'></script>
+<script data-feature='fb-page' data-url='https://connect.facebook.net/en_GB/sdk.js#xfbml=1&amp;version=v3.2&amp;appId=639855146221551&amp;autoLogAppEvents=1'></script>
+<script data-feature='recaptcha' data-key='6LdmBxoTAAAAAMPgzhgGaq3lE5MHYpEIT-sczcT7' data-url='https://cdn.bulldogjob.com/assets/recaptcha-eb6242fd85608de29e1c10a269e671c0cebabf7f1931e3cb65c4de8729ca3618.js'></script>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="5fqF+lZ1RbszumOvLNXAHgM/16W+ocPyAn1794zku72+mH9IZ4FN8VmKMN28rdQIUVImDzQIB1+FUvF37RbMjg==" />
+<link href='/apple-touch-icon.png' rel='apple-touch-icon' sizes='180x180'>
+<link href='/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+<link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+<link href='/site.webmanifest' rel='manifest'>
+<link color='white' href='/safari-pinned-tab.svg' rel='mask-icon'>
+<meta content='white' name='msapplication-TileColor'>
+<meta content='white' name='theme-color'>
+<meta content='telephone=no' name='format-detection'>
+<link href='https://bulldogjob.pl/feeds/blog' rel='alternate' title='Blog' type='application/atom+xml'>
+<script type='application/ld+json'>
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Praca IT","item":"http://bulldogjob.pl/companies/jobs"},{"@type":"ListItem","position":2,"name":"Frontend","item":"http://bulldogjob.pl/companies/jobs/s/role,frontend"}]}
+
+</script>
+
+</head>
+<body class=''>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-70697855-1', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', ['https://bulldogjob.com']);
+  ga('set', 'dimension1', 'D');
+  
+  
+  ga('send', 'pageview');
+  
+</script>
+
+<!-- Google Tag Manager -->
+<noscript>
+<iframe height='0' src='//www.googletagmanager.com/ns.html?id=GTM-P8F653' style='display:none;visibility:hidden' width='0'></iframe>
+</noscript>
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer', 'GTM-P8F653');
+</script>
+<!-- End Google Tag Manager -->
+
+<noscript id='deferred-styles'>
+<link rel="stylesheet" media="all" href="https://cdn.bulldogjob.com/assets/delayed-d539a47645811473e7b9f903c390aaae1ea8801009f88770ded58537e5dcfa4e.css" />
+</noscript>
+<script>
+  var loadDeferredStyles = function() {
+    var addStylesNode = document.getElementById("deferred-styles");
+    var replacement = document.createElement("div");
+    replacement.innerHTML = addStylesNode.textContent;
+    document.head.appendChild(replacement)
+    addStylesNode.parentElement.removeChild(addStylesNode);
+  };
+  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+      webkitRequestAnimationFrame || msRequestAnimationFrame;
+  if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+  else window.addEventListener('load', loadDeferredStyles);
+</script>
+<div id='cookieBar'>
+Nasza strona używa
+<a href="https://bulldogjob.pl/privacy_policy">cookies.</a>
+Korzystając ze strony, wyrażasz zgodę na używanie cookies, zgodnie z aktualnymi ustawieniami przeglądarki.
+<a class='confirm' href='#' id='acceptCookies'>Rozumiem</a>
+</div>
+
+<nav class='navbar navbar-default navbar-fixed-top'>
+<div class='container custom-nav'>
+<div class='navbar-header'>
+<a class="navbar-brand" href="https://bulldogjob.pl/"><img class="nav-logo desktop" alt="Bulldogjob - The Space for IT People" src="https://cdn.bulldogjob.com/assets/logo-6d85aa7138552c5b466f9a4fb26785893cceb34e7b344915bba0392dd125287a.png" />
+<img class="nav-logo mobile" alt="Bulldogjob - The Space for IT People" src="https://cdn.bulldogjob.com/assets/bulldog_black-b3bad6ac393d2ec4634715072e12551c9dfd308af7337052e190a449f2015dcf.png" />
+</a><button aria-controls='navbar' aria-expanded='false' class='navbar-toggle collapsed' data-target='#navbar' data-toggle='collapse' type='button'>
+<span class='sr-only'>Toggle navigation</span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+</div>
+<div class='navbar-collapse collapse' id='navbar'>
+<ul class='nav navbar-nav navbar-right right-block'>
+<li>
+<a rel="nofollow" class="nav-link navbar-active-item" aria-current="page" href="/companies/jobs">Oferty pracy</a>
+</li>
+<li>
+<a rel="nofollow" class="nav-link" href="/companies/profiles">Profile firm</a>
+</li>
+<li>
+<a rel="nofollow" class="nav-link" href="/courses">Szkolenia</a>
+</li>
+<li>
+<a rel="nofollow" class="nav-link" href="https://bulldogjob.pl/it-report/2020">Badanie IT
+</a></li>
+<li class='with_margin'>
+<a rel="nofollow" class="nav-link mid-bold" href="/blog">Blog IT</a>
+</li>
+<li class='nav-item dropdown'>
+<a class="nav-link" id="loginMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="https://bulldogjob.pl/for_employers"><div class='btn btn-nav-custom-variant'>
+Zaloguj
+</div>
+</a><div aria-labelledby='loginMenuLink' class='dropdown-menu'>
+<a class="dropdown-item" data-target="#signInModal" data-toggle="modal" rel="nofollow" href="#"><div class='fa fa-user'></div>
+Jako specjalista IT
+</a><a class="dropdown-item" data-target="#modal-login" data-toggle="modal" rel="nofollow" href="#"><div class='fa fa-building'></div>
+Jako pracodawca
+</a></div>
+</li>
+<li class='nav-item for-employer'>
+<a class="nav-link" href="https://bulldogjob.pl/for-employers/job-offers"><div class='btn btn-nav-custom-variant'>
+Dla pracodawcy
+</div>
+</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+
+<div class='main-content'>
+
+<div class='search-box-container' data-type='job' id='search-box-container'>
+<div class='main-section'>
+<div class='sections'>
+<ul class='list-unstyled list-inline'>
+<li class='active' data-id='#jobs-search-form'>Praca</li>
+<li data-id='#profiles-search-form' data-url='https://bulldogjob.pl/companies/profiles/search_form'>Firmy</li>
+<li data-id='#courses-search-form' data-url='https://bulldogjob.pl/courses/search_form'>Szkolenia</li>
+<li data-id='#blog-search-form' data-url='https://bulldogjob.pl/blog/search_form'>Blog</li>
+</ul>
+</div>
+<div class='container'>
+<div class='filters'>
+<form id="jobs-search-form" data-search="jobs" action="https://bulldogjob.pl/companies/jobs" accept-charset="UTF-8" data-remote="true" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="base_url" id="base_url" value="https://bulldogjob.pl/companies/jobs" />
+<div class='row'>
+<div class='col-sm-12'>
+<div class='icon-container'>
+<div class='icon map' data-toggle='tooltip' title='Lokalizacja'></div>
+<div class='caption mobile'>Lokalizacja</div>
+</div>
+<ul class='list-unstyled list-inline filters-items'>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[city][]" id="city_warszawa" value="Warszawa" />
+Warszawa
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[city][]" id="city_kraków" value="Kraków" />
+Kraków
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[city][]" id="city_wrocław" value="Wrocław" />
+Wrocław
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[city][]" id="city_łódź" value="Łódź" />
+Łódź
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[city][]" id="city_śląsk" value="Śląsk" />
+Śląsk
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[city][]" id="city_poznań" value="Poznań" />
+Poznań
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[city][]" id="city_białystok" value="Białystok" />
+Białystok
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[remote]" id="filters_remote" value="true" />
+Remote
+</label>
+</li>
+<li>
+<a class='cities-hook collapse in btn btn-searchbox btn-sm' data-toggle='collapse' href='.cities-hook' rel='nofollow'>
+<i class='fa fa-plus'></i>
+Więcej...
+</a>
+</li>
+<div class='cities-hook collapse list-inline'>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[city][]" id="city_lublin" value="Lublin" />
+Lublin
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[city][]" id="city_trójmiasto" value="Trójmiasto" />
+Trójmiasto
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[city][]" id="city_bydgoszcz" value="Bydgoszcz" />
+Bydgoszcz
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[city][]" id="city_zielona góra" value="Zielona Góra" />
+Zielona Góra
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[city][]" id="city_kielce" value="Kielce" />
+Kielce
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[city][]" id="city_rzeszów" value="Rzeszów" />
+Rzeszów
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[city][]" id="city_toruń" value="Toruń" />
+Toruń
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm city' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[city][]" id="city_szczecin" value="Szczecin" />
+Szczecin
+</label>
+</li>
+<li>
+<div class='textfield-wrapper'>
+<input type="text" name="filters[city][]" id="filters_city_" value="" class="form-control input-sm textfield" placeholder="Inne miasto" />
+</div>
+</li>
+</div>
+</ul>
+</div>
+</div>
+<div class='row'>
+<div class='col-sm-12'>
+<div class='icon-container'>
+<div class='icon user' data-toggle='tooltip' title='Stanowiska'></div>
+<div class='caption mobile'>Stanowiska</div>
+</div>
+<ul class='list-unstyled list-inline filters-items roles'>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_backend" value="backend" />
+Backend
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_fullstack" value="fullstack" />
+Fullstack
+</label>
+</li>
+<li>
+<label class='active btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_frontend" value="frontend" checked="checked" />
+Frontend
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_devops" value="devops" />
+DevOps
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_administrator" value="administrator" />
+Administrator
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_analyst" value="analyst" />
+Analityk
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_support" value="support" />
+Support
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_tech_lead" value="tech_lead" />
+Tech Lead
+</label>
+</li>
+<li>
+<a class='hook collapse in btn btn-searchbox btn-sm' data-toggle='collapse' href='.hook' rel='nofollow'>
+<i class='fa fa-plus'></i>
+Więcej...
+</a>
+</li>
+<div class='collapse hook list-inline'>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_qa" value="qa" />
+QA
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_tester" value="tester" />
+Tester
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_project_manager" value="project_manager" />
+Project Manager
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_mobile" value="mobile" />
+Mobile
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_architect" value="architect" />
+Architekt
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_embedded" value="embedded" />
+Embedded
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_scrum_master" value="scrum_master" />
+Scrum Master
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_designer" value="designer" />
+UX/UI designer
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_security" value="security" />
+Bezpieczeństwo
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[role][]" id="role_gamedev" value="gamedev" />
+GameDev
+</label>
+</li>
+</div>
+</ul>
+</div>
+</div>
+<div class='row'>
+<div class='col-sm-12'>
+<div class='icon-container'>
+<div class='icon code' data-toggle='tooltip' title='Technologie'></div>
+<div class='caption mobile'>Technologie</div>
+</div>
+<ul class='list-unstyled list-inline filters-items technologies'>
+<label class='btn btn-searchbox btn-sm btn-tech item role-administrator role-all role-architect role-backend role-devops role-embedded role-fullstack role-gamedev role-general role-mobile role-tech_lead role-tester' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_Java" value="Java" />
+<div class='java tech tech-sprites'></div>
+<div class='tech-caption'>
+Java
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech role-administrator role-all role-architect role-backend role-devops role-frontend role-fullstack role-general role-tech_lead role-tester visible-item' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_JavaScript" value="JavaScript" />
+<div class='javascript tech tech-sprites'></div>
+<div class='tech-caption'>
+JavaScript
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech role-all role-frontend visible-item' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_Angular" value="Angular" />
+<div class='angular tech tech-sprites'></div>
+<div class='tech-caption'>
+Angular
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech role-all role-frontend visible-item' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_React" value="React" />
+<div class='react tech tech-sprites'></div>
+<div class='tech-caption'>
+React
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech role-all role-frontend visible-item' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_Vue" value="Vue" />
+<div class='tech tech-sprites vue'></div>
+<div class='tech-caption'>
+Vue
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech role-all role-frontend visible-item' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_HTML" value="HTML" />
+<div class='html tech tech-sprites'></div>
+<div class='tech-caption'>
+HTML
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech item role-administrator role-all role-architect role-backend role-devops role-embedded role-fullstack role-general role-tech_lead role-tester' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_Python" value="Python" />
+<div class='python tech tech-sprites'></div>
+<div class='tech-caption'>
+Python
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech item role-administrator role-all role-architect role-backend role-devops role-fullstack role-gamedev role-general role-mobile role-tech_lead role-tester' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_Cs" value="C#" />
+<div class='cs tech tech-sprites'></div>
+<div class='tech-caption'>
+C#
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech item role-administrator role-all role-architect role-backend role-devops role-embedded role-fullstack role-gamedev role-general role-tech_lead role-tester' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_Cpp" value="C++" />
+<div class='cpp tech tech-sprites'></div>
+<div class='tech-caption'>
+C++
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech item role-all role-embedded' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_C" value="C" />
+<div class='c tech tech-sprites'></div>
+<div class='tech-caption'>
+C
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech item role-all role-backend' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_Go" value="Go" />
+<div class='go tech tech-sprites'></div>
+<div class='tech-caption'>
+Go
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech item role-all role-backend' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_SQL" value="SQL" />
+<div class='sql tech tech-sprites'></div>
+<div class='tech-caption'>
+SQL
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech item role-administrator role-all role-architect role-backend role-devops role-fullstack role-general role-tech_lead role-tester' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_PHP" value="PHP" />
+<div class='php tech tech-sprites'></div>
+<div class='tech-caption'>
+PHP
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech item role-administrator role-all role-architect role-devops role-general role-mobile role-tech_lead role-tester' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_Swift" value="Swift" />
+<div class='swift tech tech-sprites'></div>
+<div class='tech-caption'>
+Swift
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech item role-administrator role-all role-architect role-devops role-general role-mobile role-tech_lead role-tester' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_Kotlin" value="Kotlin" />
+<div class='kotlin tech tech-sprites'></div>
+<div class='tech-caption'>
+Kotlin
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech item role-administrator role-all role-architect role-backend role-devops role-fullstack role-general role-tech_lead role-tester' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_Ruby" value="Ruby" />
+<div class='ruby tech tech-sprites'></div>
+<div class='tech-caption'>
+Ruby
+</div>
+</label>
+<label class='btn btn-searchbox btn-sm btn-tech item role-all role-mobile' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[skills][]" id="skill_React-Native" value="React Native" />
+<div class='react-native tech tech-sprites'></div>
+<div class='tech-caption'>
+React Native
+</div>
+</label>
+<div class='textfield-wrapper'>
+<input type="text" name="filters[skills][]" id="filters_skills_" value="" class="form-control input-md textfield" placeholder="Inna technologia" />
+</div>
+</ul>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-5 col-sm-12'>
+<div class='icon-container'>
+<div class='icon exp' data-toggle='tooltip' title='Doświadczenie'></div>
+<div class='caption mobile'>Doświadczenie</div>
+</div>
+<ul class='list-unstyled list-inline filters-items'>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[experience_level][]" id="exp_level_junior" value="junior" />
+Junior
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[experience_level][]" id="exp_level_medium" value="medium" />
+Mid
+</label>
+</li>
+<li>
+<label class='btn btn-searchbox btn-sm' role='checkbox' tabindex='0'>
+<input type="checkbox" name="filters[experience_level][]" id="exp_level_senior" value="senior" />
+Senior
+</label>
+</li>
+</ul>
+</div>
+<div class='col-md-4 col-sm-6 range_slider'>
+<div class='icon-container'>
+<div class='icon salary' data-toggle='tooltip' title='Zarobki'></div>
+<div class='caption mobile'>Zarobki</div>
+</div>
+<ul class='list-unstyled list-inline filters-items'>
+<li class='range'>
+<input type="text" name="filters[salary]" id="filters_salary" value="0" class="range hidden" />
+</li>
+</ul>
+</div>
+<div class='col-md-3 col-sm-6'>
+<ul class='list-unstyled list-inline filters-items'>
+<li>
+<div class='checkbox checkbox-green'>
+<input type="checkbox" name="filters[with_salary]" id="filters_with_salary" value="true" />
+<label for='filters_with_salary' role='checkbox' tabindex='0'>Tylko z widełkami</label>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class='row mobile down-buttons'>
+<div class='col-xs-6'>
+<div class='btn btn-searchbox search-check cancel'></div>
+</div>
+<div class='col-xs-6 text-right'>
+<div class='btn btn-searchbox search-check ok'></div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class='bottom-section'>
+<div class='container bottom-filters'>
+<div class='row'>
+<div class='col-sm-12'>
+<div class='icon-container'>
+<i class='fa fa-sliders'></i>
+</div>
+<ul class='list-unstyled list-inline filters-items desktop'>
+</ul>
+<div class='btn btn-searchbox btn-sm'>
+Dostosuj wyszukiwanie
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='search-spacer'></div>
+<script>
+  document.addEventListener("DOMContentLoaded",function(e){var t,n,o;return n=document.getElementById("search-box-container"),t=document.querySelector("nav.navbar").offsetHeight,n&&(o=n.offsetHeight,n.style.marginTop=t+"px",document.querySelector(".search-spacer").style.height=o+"px"),document.querySelector("body").style.paddingTop=t+"px"});
+  "object"==typeof history.state&&history.state&&1==history.state.reload&&0==document.getElementsByClassName("nav-logo").length&&(document.body.innerHTML="",window.location.reload(!1));
+</script>
+
+<div class='app-content listing'>
+<div class='container'>
+<div class='row' id='search-result'>
+<div class='col-sm-12'>
+<div class='flex flex-desktop flex-center flex-space-between'>
+<h1>Praca programista frontend</h1>
+<a class='btn btn-lg btn-primary desktop' data-toggle='modal' href='#subscriptionLoginModal'>
+<div class='fa fa-bell'></div>
+Subskrybuj oferty pracy
+</a>
+</div>
+<section class='search-results'>
+<div class='pagination' data-current='1' data-max='1' data-min='1' data-source='/companies/jobs/s/role,frontend?mode=plain' data-total='2' style='display: none'></div>
+<a class="prev-nav-button btn-paging btn mobile" style="display: none" href="/companies/jobs/s/role,frontend?mode=plain&amp;page=0">Poprzednie wyniki
+</a><ul class='results-list list-unstyled content'>
+<page data-page='1'></page>
+<a class="search-list-item gft-poland" data-item-url="https://bulldogjob.pl/companies/jobs/19875-senior-javascript-developer-gft-poland" href="https://bulldogjob.pl/companies/jobs/19875-senior-javascript-developer-gft-poland"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/241/thumb/gft_logo.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Senior JavaScript Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+GFT Poland
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Remotely
+</div>
+</div>
+</div>
+<div class='technologies'>
+<h4 class='addon-stand-out'>
+<i class='fa fa-tag'></i>
+Ready to grow!
+</h4>
+</div>
+</a><a class="search-list-item motorola-solutions-systems-polska-sp-z-o-o" data-item-url="https://bulldogjob.pl/companies/jobs/19859-senior-frontend-developer-angular-krakow-motorola-solutions-systems-polska-sp-z-o-o" href="https://bulldogjob.pl/companies/jobs/19859-senior-frontend-developer-angular-krakow-motorola-solutions-systems-polska-sp-z-o-o"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/927/thumb/Motorola_-_logo_kwadratowe.jpg" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Senior Frontend Developer (Angular)
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Motorola Solutions Systems Polska Sp.z.o.o
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Kraków
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Javascript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Typescript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item luxoft" data-item-url="https://bulldogjob.pl/companies/jobs/20504-senior-front-end-developer-for-azure-cloud-wroclaw-luxoft" href="https://bulldogjob.pl/companies/jobs/20504-senior-front-end-developer-for-azure-cloud-wroclaw-luxoft"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/382/thumb/AP15Fcmx7yR9gBC-.jpg" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Senior Front-End Developer for Azure Cloud
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Luxoft
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Wrocław
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>CSS</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Git</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item transition-technologies-psc" data-item-url="https://bulldogjob.pl/companies/jobs/20061-frontend-developer-lodz-wroclaw-bialystok-zielona-gora-poznan-kielce-transition-technologies-psc" href="https://bulldogjob.pl/companies/jobs/20061-frontend-developer-lodz-wroclaw-bialystok-zielona-gora-poznan-kielce-transition-technologies-psc"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/001/942/thumb/psclogosmall.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Frontend Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Transition Technologies PSC
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Łódź, Wrocław, Białystok, Zielona Góra, Poznań, Kielce
+</div>
+</div>
+</div>
+<div class='technologies'>
+<h4 class='addon-stand-out'>
+<i class='fa fa-tag'></i>
+R&amp;D
+</h4>
+</div>
+</a><a class="search-list-item digital-colliers" data-item-url="https://bulldogjob.pl/companies/jobs/19730-senior-frontend-developer-krakow-digital-colliers" href="https://bulldogjob.pl/companies/jobs/19730-senior-frontend-developer-krakow-digital-colliers"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/002/227/thumb/icon.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Senior Frontend Developer 
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Digital Colliers
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Kraków, Zdalnie
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+9 000 - 20 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Vue.js</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML5</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>CSS3</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item shiji-poland" data-item-url="https://bulldogjob.pl/companies/jobs/20488-mid-senior-front-end-developer-shiji-poland" href="https://bulldogjob.pl/companies/jobs/20488-mid-senior-front-end-developer-shiji-poland"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/001/625/thumb/Shiji.jpg" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Mid/Senior Front-end Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Shiji Poland
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Remotely
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+9 000 - 18 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Typescript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Ember</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item syzygy-warsaw" data-item-url="https://bulldogjob.pl/companies/jobs/20482-front-end-developer-warszawa-syzygy-warsaw" href="https://bulldogjob.pl/companies/jobs/20482-front-end-developer-warszawa-syzygy-warsaw"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/468/thumb/syzygy_logo_normal.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Front-end Developer 
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+SYZYGY Warsaw 
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Warszawa
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+11 400 - 12 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML5</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>SCSS</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item power-media" data-item-url="https://bulldogjob.pl/companies/jobs/20772-frontend-developer-angular-krakow-power-media" href="https://bulldogjob.pl/companies/jobs/20772-frontend-developer-angular-krakow-power-media"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/001/222/thumb/logo.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Frontend Developer (Angular)
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Power Media
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Kraków
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Angular</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML5</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item stokrotka-sp-z-o-o" data-item-url="https://bulldogjob.pl/companies/jobs/19359-java-frontend-developer-lublin-stokrotka-sp-z-o-o" href="https://bulldogjob.pl/companies/jobs/19359-java-frontend-developer-lublin-stokrotka-sp-z-o-o"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/002/188/thumb/logo_podstawowe_www.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Java Frontend Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Stokrotka Sp. z o.o.
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Lublin
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Java</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>React</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Angular</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item sii-polska" data-item-url="https://bulldogjob.pl/companies/jobs/21408-front-end-developer-katowice-sii-polska" href="https://bulldogjob.pl/companies/jobs/21408-front-end-developer-katowice-sii-polska"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/165/thumb/Logo_Sii_-01.jpg" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Front-end Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Sii Polska
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Katowice
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+13 000 - 15 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Angular</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>TypeScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Bootstrap</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item 7n" data-item-url="https://bulldogjob.pl/companies/jobs/20416-frontend-developer-angular-2-vue-7n" href="https://bulldogjob.pl/companies/jobs/20416-frontend-developer-angular-2-vue-7n"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/247/thumb/fe2ea0bfe08c0d131a20a7613610625835c00449.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Frontend Developer (Angular 2+/Vue)
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+7N
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Zdalnie
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+16 800 - 18 400 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Angular 2+</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Vue</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Java</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item sofomo" data-item-url="https://bulldogjob.pl/companies/jobs/19228-frontend-developer-sofomo" href="https://bulldogjob.pl/companies/jobs/19228-frontend-developer-sofomo"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/001/382/thumb/sofomo-logo-podglad_copy.jpg" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Frontend Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Sofomo
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Remotely
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+9 000 - 14 000 PLN
+</div>
+<div class='top-15'></div>
+<h4 class='addon-stand-out'>
+<i class='fa fa-tag'></i>
+React OR Vue.js
+</h4>
+</div>
+</a><a class="search-list-item luxoft" data-item-url="https://bulldogjob.pl/companies/jobs/20383-senior-software-developer-wroclaw-luxoft" href="https://bulldogjob.pl/companies/jobs/20383-senior-software-developer-wroclaw-luxoft"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/382/thumb/AP15Fcmx7yR9gBC-.jpg" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Senior Software Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Luxoft
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Wrocław
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>CSS3</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Confluence</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Git</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item luxoft" data-item-url="https://bulldogjob.pl/companies/jobs/20379-front-end-developer-warszawa-luxoft" href="https://bulldogjob.pl/companies/jobs/20379-front-end-developer-warszawa-luxoft"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/382/thumb/AP15Fcmx7yR9gBC-.jpg" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Front-End Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Luxoft
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Warszawa
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Angular</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Bootstrap</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JSON</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item aptiv" data-item-url="https://bulldogjob.pl/companies/jobs/19857-react-front-end-software-developer-visualization-and-analytics-krakow-aptiv" href="https://bulldogjob.pl/companies/jobs/19857-react-front-end-software-developer-visualization-and-analytics-krakow-aptiv"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/817/thumb/aptiv_logo_color_rgb.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+React Front-End Software Developer – Visualization and Analytics
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Aptiv
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Kraków
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>TypeScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML5</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>CSS3</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item trineo-sp-z-o-o" data-item-url="https://bulldogjob.pl/companies/jobs/19950-front-end-developer-gdynia-trineo-sp-z-o-o" href="https://bulldogjob.pl/companies/jobs/19950-front-end-developer-gdynia-trineo-sp-z-o-o"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/002/209/thumb/TrineoLogo_203x.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Front-end Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Trineo Sp. z o.o.
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Gdynia
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+10 000 - 12 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML5</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>CSS</div>
+</li>
+</ul>
+</div>
+</a>
+<li class='subscribe-search'>
+<a class='btn btn-lg btn-primary btn-shadow' data-toggle='modal' href='#subscriptionLoginModal'>
+<div class='fa fa-bell'></div>
+Subskrybuj oferty pracy
+</a>
+</li>
+<a class="search-list-item spoc-servicenow-experts" data-item-url="https://bulldogjob.pl/companies/jobs/20927-junior-javascript-developer-servicenow-poznan-spoc-servicenow-experts" href="https://bulldogjob.pl/companies/jobs/20927-junior-javascript-developer-servicenow-poznan-spoc-servicenow-experts"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/001/104/thumb/logo.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Junior JavaScript Developer (ServiceNow)
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+SPOC - ServiceNow Experts
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Poznań
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>AngularJS</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>jQuery</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item ipresso" data-item-url="https://bulldogjob.pl/companies/jobs/20322-frontend-angular-developer-katowice-ipresso" href="https://bulldogjob.pl/companies/jobs/20322-frontend-angular-developer-katowice-ipresso"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/001/945/thumb/iPressoR_logo.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Frontend Angular Developer 
+</h3>
+</div>
+<div class='meta'>
+<div class='company'>
+iPresso
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Katowice
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+6 000 - 12 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Angular</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>TypeScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>RxJS</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item veventy" data-item-url="https://bulldogjob.pl/companies/jobs/20306-frontend-developer-veventy" href="https://bulldogjob.pl/companies/jobs/20306-frontend-developer-veventy"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/002/107/thumb/veventy_orange.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Frontend Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+VEVENTY
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Zdalnie
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+6 000 - 10 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>CSS</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>WebSockets</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item commerzbank-centrum-technologii-cyfrowych-w-polsce" data-item-url="https://bulldogjob.pl/companies/jobs/21256-front-end-fullstack-developer-for-architecture-team-lodz-commerzbank-centrum-technologii-cyfrowych-w-polsce" href="https://bulldogjob.pl/companies/jobs/21256-front-end-fullstack-developer-for-architecture-team-lodz-commerzbank-centrum-technologii-cyfrowych-w-polsce"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/001/355/thumb/CB-2017-Logo_RGB.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Front-end/ Fullstack Developer for Architecture team
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Commerzbank - Centrum Technologii Cyfrowych w Polsce
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Łódź
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>React</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML5</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item yggdrasil-gaming" data-item-url="https://bulldogjob.pl/companies/jobs/19645-javascript-game-developer-krakow-yggdrasil-gaming" href="https://bulldogjob.pl/companies/jobs/19645-javascript-game-developer-krakow-yggdrasil-gaming"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/001/835/thumb/yggdrasil-rebrand-logo-full-dark.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+JavaScript Game Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Yggdrasil Gaming
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Kraków
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item acclaim" data-item-url="https://bulldogjob.pl/companies/jobs/19812-remote-wordpress-developer-acclaim" href="https://bulldogjob.pl/companies/jobs/19812-remote-wordpress-developer-acclaim"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/001/340/thumb/acclaim-logo.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Remote WordPress Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Acclaim
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Remotely
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+7 000 - 12 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML5</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>SCSS</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>PHP</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item power-media" data-item-url="https://bulldogjob.pl/companies/jobs/20240-react-developer-wroclaw-power-media" href="https://bulldogjob.pl/companies/jobs/20240-react-developer-wroclaw-power-media"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/001/222/thumb/logo.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+React Developer
+</h3>
+</div>
+<div class='meta'>
+<div class='company'>
+Power Media
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Wrocław
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+12 000 - 18 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>React</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item veventy" data-item-url="https://bulldogjob.pl/companies/jobs/20223-junior-frontend-developer-html-css-veventy" href="https://bulldogjob.pl/companies/jobs/20223-junior-frontend-developer-html-css-veventy"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/002/107/thumb/veventy_orange.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Junior Frontend Developer | HTML, CSS 
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+VEVENTY
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Zdalnie
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+3 000 - 4 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML5</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>CSS3</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item power-media" data-item-url="https://bulldogjob.pl/companies/jobs/19861-frontend-developer-angular-gliwice-krakow-power-media" href="https://bulldogjob.pl/companies/jobs/19861-frontend-developer-angular-gliwice-krakow-power-media"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/001/222/thumb/logo.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Frontend Developer (Angular)
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Power Media
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Gliwice, Kraków
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Angular</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item xperi-corporation" data-item-url="https://bulldogjob.pl/companies/jobs/21162-javascript-senior-frontend-developer-warszawa-xperi-corporation" href="https://bulldogjob.pl/companies/jobs/21162-javascript-senior-frontend-developer-warszawa-xperi-corporation"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/002/222/thumb/xperi.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+JavaScript Senior Frontend Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Xperi Corporation
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Warszawa, Remotely
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Vue.js</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>TypeScript</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item nokia" data-item-url="https://bulldogjob.pl/companies/jobs/21159-front-end-developer-working-student-wroclaw-nokia" href="https://bulldogjob.pl/companies/jobs/21159-front-end-developer-working-student-wroclaw-nokia"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/424/thumb/NOKIA_LOGO_CMYK_HR.jpg" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Front-end Developer (Working student)
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Nokia
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Wrocław
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>SCSS</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item mirum-poland-sp-z-o-o" data-item-url="https://bulldogjob.pl/companies/jobs/20820-frontend-developer-chorzow-mirum-poland-sp-z-o-o" data-custom-stylesheet="/system/companies/mirum-poland-sp-z-o-o-fb814cee266da76db41d01c9429087d0a243de8c003dbc60a4e7be5eb6d114be.css" href="https://bulldogjob.pl/companies/jobs/20820-frontend-developer-chorzow-mirum-poland-sp-z-o-o"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/480/thumb/Mirum_Logo_Logotype_Black.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Frontend Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Mirum Poland Sp. z o.o.
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Chorzów
+</div>
+</div>
+</div>
+<div class='technologies'>
+<h4 class='addon-stand-out'>
+<i class='fa fa-tag'></i>
+Does it work?
+</h4>
+</div>
+</a><a class="search-list-item accenture-advanced-technology-center-poland" data-item-url="https://bulldogjob.pl/companies/jobs/19335-regular-senior-front-end-developer-lodz-accenture-sp-z-o-o" href="https://bulldogjob.pl/companies/jobs/19335-regular-senior-front-end-developer-lodz-accenture-sp-z-o-o"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/958/thumb/Acc_Technology_SvcMrk_Black_Purple_RGB.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Regular/Senior Front-end Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Accenture Advanced Technology Center Poland
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Łódź
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>CSS</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item accenture-advanced-technology-center-poland" data-item-url="https://bulldogjob.pl/companies/jobs/19337-javascript-developer-node-js-lodz-accenture-sp-z-o-o" href="https://bulldogjob.pl/companies/jobs/19337-javascript-developer-node-js-lodz-accenture-sp-z-o-o"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/958/thumb/Acc_Technology_SvcMrk_Black_Purple_RGB.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+JavaScript Developer (Node.JS)
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Accenture Advanced Technology Center Poland
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Łódź
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Node.js</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Git</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item jcommerce" data-item-url="https://bulldogjob.pl/companies/jobs/21078-regular-senior-front-end-developer-react-e-commerce-katowice-poznan-krakow-jcommerce" href="https://bulldogjob.pl/companies/jobs/21078-regular-senior-front-end-developer-react-e-commerce-katowice-poznan-krakow-jcommerce"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/293/thumb/JCommerce_2018_logo_vertical_color.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Regular / Senior Front-End Developer | React, e-commerce
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+JCommerce
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Katowice, Poznań, Kraków, Zdalnie
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+Do 20 800 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>React</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item polcode-sp-z-o-o" data-item-url="https://bulldogjob.pl/companies/jobs/20627-react-developer-polcode-sp-z-o-o" href="https://bulldogjob.pl/companies/jobs/20627-react-developer-polcode-sp-z-o-o"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/155/thumb/profilepic.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+React Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Polcode Sp. z o.o.
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Zdalnie
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+6 000 - 12 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>React</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Redux </div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item polcode-sp-z-o-o" data-item-url="https://bulldogjob.pl/companies/jobs/20628-react-developer-warszawa-polcode-sp-z-o-o" href="https://bulldogjob.pl/companies/jobs/20628-react-developer-warszawa-polcode-sp-z-o-o"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/155/thumb/profilepic.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+React Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Polcode Sp. z o.o.
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Warszawa
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+6 000 - 12 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>React</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Redux </div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item polcode-sp-z-o-o" data-item-url="https://bulldogjob.pl/companies/jobs/20629-react-developer-lodz-polcode-sp-z-o-o" href="https://bulldogjob.pl/companies/jobs/20629-react-developer-lodz-polcode-sp-z-o-o"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/155/thumb/profilepic.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+React Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Polcode Sp. z o.o.
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Łódź
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+6 000 - 12 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>React</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Redux </div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item polcode-sp-z-o-o" data-item-url="https://bulldogjob.pl/companies/jobs/20630-react-developer-krakow-polcode-sp-z-o-o" href="https://bulldogjob.pl/companies/jobs/20630-react-developer-krakow-polcode-sp-z-o-o"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/155/thumb/profilepic.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+React Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Polcode Sp. z o.o.
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Kraków
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+6 000 - 12 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>React</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Redux </div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item polcode-sp-z-o-o" data-item-url="https://bulldogjob.pl/companies/jobs/20631-react-developer-bialystok-polcode-sp-z-o-o" href="https://bulldogjob.pl/companies/jobs/20631-react-developer-bialystok-polcode-sp-z-o-o"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/155/thumb/profilepic.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+React Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Polcode Sp. z o.o.
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Białystok
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+6 000 - 12 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>React</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Redux </div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item stepstone-services" data-item-url="https://bulldogjob.pl/companies/jobs/21070-front-end-developer-react-net-warszawa-stepstone-services" href="https://bulldogjob.pl/companies/jobs/21070-front-end-developer-react-net-warszawa-stepstone-services"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/423/thumb/logo_square.jpeg" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Front-end Developer (React+.NET)
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+StepStone Services
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Warszawa
+</div>
+</div>
+</div>
+<div class='technologies'>
+<h4 class='addon-stand-out'>
+<i class='fa fa-tag'></i>
+React+.NET
+</h4>
+</div>
+</a><a class="search-list-item hello-world-sp-z-o-o" data-item-url="https://bulldogjob.pl/companies/jobs/21063-angular-frontend-developer-warszawa-hello-world-sp-z-o-o" href="https://bulldogjob.pl/companies/jobs/21063-angular-frontend-developer-warszawa-hello-world-sp-z-o-o"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/002/141/thumb/GOGOmedia_Logo_Flat-01.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Angular Frontend Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Hello World! Sp. z o.o.
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Warszawa, Zdalnie
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+7 000 - 10 000 PLN
+</div>
+<div class='top-15'></div>
+<h4 class='addon-stand-out'>
+<i class='fa fa-tag'></i>
+Angular
+</h4>
+</div>
+</a><a class="search-list-item trineo-sp-z-o-o" data-item-url="https://bulldogjob.pl/companies/jobs/21058-team-leader-web-apps-gdynia-trineo-sp-z-o-o" href="https://bulldogjob.pl/companies/jobs/21058-team-leader-web-apps-gdynia-trineo-sp-z-o-o"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/002/209/thumb/TrineoLogo_203x.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Team Leader - Web Apps
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Trineo Sp. z o.o.
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Gdynia
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+15 000 - 17 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'> Python+Django</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item smartlocating-corporation" data-item-url="https://bulldogjob.pl/companies/jobs/17131-senior-frontend-developer-angular-smartlocating-corporation" href="https://bulldogjob.pl/companies/jobs/17131-senior-frontend-developer-angular-smartlocating-corporation"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/002/060/thumb/Screen_Shot_2020-08-31_at_1.46.57_PM.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Senior Frontend Developer (Angular)
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Smartlocating Corporation
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Remotely
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+3 300 - 3 500 USD
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Angular</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>CSS</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item scopic-software" data-item-url="https://bulldogjob.pl/companies/jobs/18619-reactjs-developer-scopic" href="https://bulldogjob.pl/companies/jobs/18619-reactjs-developer-scopic"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/002/196/thumb/scopic.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+ReactJS Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Scopic Software
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Remotely
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>React</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item sii-polska" data-item-url="https://bulldogjob.pl/companies/jobs/20909-front-end-developer-angular-warszawa-sii-polska" href="https://bulldogjob.pl/companies/jobs/20909-front-end-developer-angular-warszawa-sii-polska"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/165/thumb/Logo_Sii_-01.jpg" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Front-end Developer (Angular)
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Sii Polska
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Warszawa
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+16 000 - 20 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Angular</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Redux</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Akita</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item luxoft" data-item-url="https://bulldogjob.pl/companies/jobs/20010-middle-angular-js-developer-krakow-luxoft" href="https://bulldogjob.pl/companies/jobs/20010-middle-angular-js-developer-krakow-luxoft"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/382/thumb/AP15Fcmx7yR9gBC-.jpg" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Middle Angular JS Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Luxoft
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Kraków
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Angular</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>CSS</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item luxoft" data-item-url="https://bulldogjob.pl/companies/jobs/20006-senior-front-end-developer-angular-warszawa-luxoft" href="https://bulldogjob.pl/companies/jobs/20006-senior-front-end-developer-angular-warszawa-luxoft"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/382/thumb/AP15Fcmx7yR9gBC-.jpg" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Senior Front-End Developer (Angular)
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Luxoft
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Warszawa
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Angular</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>CI</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>CSS3</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item appunite" data-item-url="https://bulldogjob.pl/companies/jobs/19566-front-end-developer-appunite" href="https://bulldogjob.pl/companies/jobs/19566-front-end-developer-appunite"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/001/973/thumb/appunite.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Front-end Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+AppUnite
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Remotely
+</div>
+</div>
+</div>
+<div class='technologies'>
+<h4 class='addon-stand-out'>
+<i class='fa fa-tag'></i>
+Global clients
+</h4>
+</div>
+</a><a class="search-list-item jcommerce" data-item-url="https://bulldogjob.pl/companies/jobs/19872-front-end-developer-i-react-e-commerce-poznan-jcommerce" href="https://bulldogjob.pl/companies/jobs/19872-front-end-developer-i-react-e-commerce-poznan-jcommerce"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/293/thumb/JCommerce_2018_logo_vertical_color.png" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Front-End Developer I React, e-commerce
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+JCommerce
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Poznań, Zdalnie
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+Do 19 200 PLN
+</div>
+<div class='top-15'></div>
+<h4 class='addon-stand-out'>
+<i class='fa fa-tag'></i>
+Projekt dla Boozt
+</h4>
+</div>
+</a><a class="search-list-item kitopi" data-item-url="https://bulldogjob.pl/companies/jobs/19858-senior-frontend-developer-krakow-kitopi" href="https://bulldogjob.pl/companies/jobs/19858-senior-frontend-developer-krakow-kitopi"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/002/101/thumb/yp0gnut9ifdwfsim82kn_%282%29.jpeg" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Senior Frontend Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Kitopi
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Kraków
+</div>
+</div>
+</div>
+<div class='technologies'>
+<div class='salary'>
+14 000 - 19 000 PLN
+</div>
+<div class='top-15'></div>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>React</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>HTML5</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item luxoft" data-item-url="https://bulldogjob.pl/companies/jobs/20890-senior-front-end-react-developer-krakow-luxoft" href="https://bulldogjob.pl/companies/jobs/20890-senior-front-end-react-developer-krakow-luxoft"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/382/thumb/AP15Fcmx7yR9gBC-.jpg" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Senior Front End/React Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Luxoft
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Kraków
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>LESS</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>REST</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item luxoft" data-item-url="https://bulldogjob.pl/companies/jobs/20888-senior-frontend-developer-krakow-luxoft" href="https://bulldogjob.pl/companies/jobs/20888-senior-frontend-developer-krakow-luxoft"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/000/382/thumb/AP15Fcmx7yR9gBC-.jpg" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Senior Frontend Developer
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+Luxoft
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Kraków
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>C#</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Git</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>Unity</div>
+</li>
+</ul>
+</div>
+</a><a class="search-list-item hubspot" data-item-url="https://bulldogjob.pl/companies/jobs/17311-senior-software-engineer-crm-hubspot" href="https://bulldogjob.pl/companies/jobs/17311-senior-software-engineer-crm-hubspot"><div class='logo-container'>
+<img loading="lazy" src="https://cdn.bulldogjob.com/system/companies/logos/000/002/153/thumb/images.jfif" />
+</div>
+<div class='details'>
+<div class='title'>
+<h3>
+Senior Software Engineer, CRM
+</h3>
+<div class='online'>
+<i class='fa fa-laptop'></i>
+<span>Rekrutacja online</span>
+</div>
+</div>
+<div class='meta'>
+<div class='company'>
+HubSpot
+</div>
+<div class='location'>
+<i class='fa fa-map-marker'></i>
+Remotely
+</div>
+</div>
+</div>
+<div class='technologies'>
+<ul class='tags'>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>JavaScript</div>
+</li>
+<li class='tags-item'>
+<div class='btn btn-sm btn-default'>CSS</div>
+</li>
+</ul>
+</div>
+</a>
+</ul>
+<a class="next-nav-button btn btn-paging next mobile" data-page="2" style="" href="/companies/jobs/s/role,frontend?mode=plain&amp;page=2">Więcej wyników
+</a><nav class='text-center desktop'>
+<ul class="pagination"><li class="active"><a data-remote="true" data-mode="searchbar" href="https://bulldogjob.pl/companies/jobs/s/role,frontend?page=1">1</a></li><li><a data-remote="true" data-mode="searchbar" href="https://bulldogjob.pl/companies/jobs/s/role,frontend?page=2">2</a></li><li class="next"><a class="next" href="https://bulldogjob.pl/companies/jobs/s/role,frontend?page=2" rel="next" data-mode="searchbar" data-remote="true"><i class="fa fa-chevron-right"></i></a></li></ul>
+</nav>
+</section>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class='modal fade' id='subscriptionLoginModal' role='dialog' tabindex='-1'>
+<div class='modal-dialog' role='document'>
+<div class='modal-content'>
+<button aria-label='Close' class='close' data-dismiss='modal' type='button'>
+<span aria-hidden='true'>×</span>
+</button>
+<div class='modal-header'>
+<h2 class='modal-header__title'>
+Załóż konto na Bulldogjob
+</h2>
+<p>Dzięki niemu będziesz mógł subskrybować wybrane treści od Bulldogjob, dostaniesz pełny dostęp do Raportu Społeczności IT 2020 i dostaniesz opcję szybkiej aplikacji.</p>
+</div>
+<div class='modal-body'>
+<div class='row top-15'>
+<div class='col-sm-12'>
+<a class="btn btn-lg btn-linkedin btn-block" href="/auth/linkedin?origin=subscribe./companies/jobs/s/role,frontend"><i class='fa fa-linkedin'></i>
+Linkedin
+</a></div>
+<div class='col-sm-12 top-10'>
+<a class="btn btn-lg btn-facebook btn-block" href="/auth/facebook?origin=subscribe./companies/jobs/s/role,frontend"><i class='fa fa-facebook'></i>
+Facebook
+</a></div>
+<div class='col-sm-12 top-10'>
+<a class="btn btn-lg btn-google btn-block" href="/auth/google_oauth2?origin=subscribe./companies/jobs/s/role,frontend"><i class='fa fa-google'></i>
+Google
+</a></div>
+<div class='col-sm-12 top-10'>
+<span>Użyj zewnętrznego serwisu, by utworzyć lub zalogować się na konto. Zakładając konto akceptujesz</span>
+<a href="https://bulldogjob.pl/terms">regulamin serwisu.</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+<div class='modal fade' id='modal-login' role='dialog' tabindex='-1'>
+<div class='modal-dialog' role='document'>
+<div class='modal-content modal-content--login'>
+<button aria-label='Close' class='close' data-dismiss='modal' type='button'>
+<span aria-hidden='true'>×</span>
+</button>
+<table>
+<tbody>
+<tr>
+<td class='modal-body-split modal-body-login'>
+<div class='h2-size modal-body-split-header'>Mam już panel pracodawcy</div>
+<form class="new_user" id="sign_in_form" action="https://bulldogjob.pl/users/sign_in.json" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><div class='form-group'>
+<input placeholder="Adres e-mail" class="form-control form-control-dark input-lg" type="email" value="" name="user[email]" id="user_email" />
+</div>
+<div class='form-group'>
+<input autocomplete="off" placeholder="Hasło" class="form-control form-control-dark input-lg" type="password" name="user[password]" id="user_password" />
+</div>
+<div class='checkbox checkbox-grayish'>
+<input name="user[remember_me]" type="hidden" value="0" /><input id="cb-rem" type="checkbox" value="1" name="user[remember_me]" />
+<label for='cb-rem'>Zapamiętaj mnie</label>
+<a class="pull-right" data-dismiss="modal" data-target="#modal-reset-password" data-toggle="modal" href="#">Zapomniałeś?</a>
+</div>
+<div class='form-group'>
+<button class='btn btn-primary btn-lg btn-to-bottom btn-sign-in'>Zaloguj</button>
+</div>
+</form></td>
+<td class='modal-body-split modal-body-signup'>
+<div class='h2-size modal-body-split-header'>Chcę utworzyć bezpłatny panel pracodawcy</div>
+<div class='color-line'>
+<div class='green-line'></div>
+</div>
+<h3>Prosimy o podanie danych firmy, aby łatwo posługiwać się narzędziami Bulldogjob</h3>
+<a class="btn btn-lg btn-accent btn-block btn-to-bottom" href="https://bulldogjob.pl/users/sign_up">Utwórz bezpłatny panel pracodawcy</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class='modal fade' id='modal-reset-password' role='dialog' tabindex='-1'>
+<div class='modal-dialog' role='document'>
+<div class='modal-content'>
+<button aria-label='Close' class='close' data-dismiss='modal' type='button'>
+<span aria-hidden='true'>×</span>
+</button>
+<div class='modal-header'>
+<div class='h2-size modal-header__title'>Zapomniałeś hasła?</div>
+<div class='color-line'>
+<div class='green-line'></div>
+</div>
+</div>
+<div class='modal-body'>
+<form class="new_user" id="reset_password_form" action="https://bulldogjob.pl/users/password.json" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><div class='form-group'>
+<input autofocus="autofocus" placeholder="Podaj adres e-mail:" class="form-control input-lg" id="email_to_reset" type="email" value="" name="user[email]" />
+</div>
+<button class='btn btn-primary btn-lg'>Zresetuj moje hasło</button>
+</form></div>
+</div>
+</div>
+</div>
+
+<div class='modal fade' id='signInModal' role='dialog' tabindex='-1'>
+<div class='modal-dialog' role='document'>
+<div class='modal-content'>
+<button aria-label='Close' class='close' data-dismiss='modal' type='button'>
+<span aria-hidden='true'>×</span>
+</button>
+<div class='modal-header'>
+<h2 class='modal-header__title'>
+Zaloguj się do konta Bulldogjob
+</h2>
+</div>
+<div class='modal-body'>
+<div class='row top-15'>
+<div class='col-sm-12'>
+<a class="btn btn-lg btn-linkedin btn-block trigger-login" href="/auth/linkedin"><i class='fa fa-linkedin'></i>
+Linkedin
+</a></div>
+<div class='col-sm-12 top-10'>
+<a class="btn btn-lg btn-facebook btn-block trigger-login" href="/auth/facebook"><i class='fa fa-facebook'></i>
+Facebook
+</a></div>
+<div class='col-sm-12 top-10'>
+<a class="btn btn-lg btn-google btn-block trigger-login" href="/auth/google_oauth2"><i class='fa fa-google'></i>
+Google
+</a></div>
+<div class='col-sm-12 top-10'>
+Użyj zewnętrznego serwisu, by utworzyć konto Bulldogjob i móc łatwo aplikować.
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<footer class='footer'>
+<div class='container'>
+<nav class='footer-nav'>
+<div class='row'>
+<div class='col-sm-3 col-xs-6'>
+<div class='footer-logo-container'>
+<a href=''>
+<img alt="Bulldogjob" class="footer-logo" src="https://cdn.bulldogjob.com/assets/logo-dark-54b72b9626ca6b53cf9a46ad05ab701dcc98a6147275ff554e67f32742f2eb09.png" />
+</a>
+</div>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.pl/for_employers">O nas</a>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.pl/privacy_policy">Polityka prywatności</a>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.pl/terms">Regulamin</a>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.pl/contact">Kontakt</a>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.com/">English version</a>
+</div>
+<div class='col-sm-3 desktop'></div>
+<div class='col-sm-3 col-xs-6'>
+<div class='footer-header'>Dla ludzi IT</div>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.pl/companies/jobs">Oferty pracy</a>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.pl/companies/profiles">Firmy IT</a>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.pl/blog">Blog IT</a>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.pl/awards/top-tech-employer">Top Tech Employer</a>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.pl/courses">Szkolenia</a>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.pl/it-report/2020">Badanie IT 2020
+</a></div>
+<div class='col-sm-3 col-xs-6'>
+<div class='footer-header'>
+Dla pracodawców
+</div>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.pl/for-employers/job-offers">Oferty pracy</a>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.pl/for-employers/employer-branding-it">Employer Branding IT</a>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.pl/for-employers/makeanimpact">#MakeAnImpact</a>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.pl/for-employers/job-offers">Job Offers</a>
+<a class="footer-nav-list__link" rel="nofollow" href="https://bulldogjob.pl/for-employers/employer-branding-it">Employer Branding</a>
+<a class="footer-nav-list__link" class_active="navbar-active-item" rel="nofollow" href="https://bulldogjob.pl/for-employers/blog">Blog HR Tech</a>
+</div>
+</div>
+</nav>
+</div>
+<div class='footer-social'>
+<div class='container'>
+<div class='row'>
+<ul>
+<li class='col-sm-6'>
+<ul class='footer-nav-list-social list-unstyled list-inline flex flex-center'>
+<li>
+Znajdź nas na
+</li>
+<li>
+<a class='footer-nav-list-social__link' href='https://www.facebook.com/Bulldogjob' rel='nofollow noopener' target='_blank'>
+<i class='fa fa-facebook-square'></i>
+</a>
+</li>
+<li>
+<a class='footer-nav-list-social__link' href='https://www.linkedin.com/company/bulldogjob' rel='nofollow noopener' target='_blank'>
+<i class='fa fa-linkedin-square'></i>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+
+<script>
+  var initObservers,loadImage,loadImg;loadImage=function(e){var r,t;t=e.getAttribute("data-src"),(r=new Image).onload=function(){e.src=t},r.src=t,e.removeAttribute("data-src")},initObservers=function(){var e,r,t,n,o,a;if("undefined"!=typeof IntersectionObserver){for(document.querySelectorAll("img[data-src]"),t=new IntersectionObserver(function(e){return e.forEach(function(e){if(e.intersectionRatio>0)return t.unobserve(e.target),loadImage(e.target)})},{rootMargin:"200px 0px",threshold:.01}),a=[],e=0,n=(o=document.querySelectorAll("img[data-src]")).length;e<n;e++)r=o[e],a.push(t.observe(r));return a}return loadImg()},loadImg=function(){var e,r,t,n,o;for(o=[],e=0,t=(n=document.querySelectorAll("img[data-src]")).length;e<t;e++)r=n[e],o.push(function(e){var r,t;t=e.getAttribute("data-src"),(r=new Image).onload=function(){e.src=t},r.src=t}(r))},initObservers();
+</script>
+</body>
+</html>
