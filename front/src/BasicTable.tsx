@@ -14,7 +14,8 @@ const useStyles = makeStyles({
     minWidth: 650,
     width: '90%',
     marginLeft: 'auto',
-    marginRight: 'auto'
+    marginRight: 'auto',
+    overflowY: 'scroll'
   },
   tableCellHeader: {
     fontSize: '30px',
@@ -36,6 +37,7 @@ const useStyles = makeStyles({
 export default function BasicTable() {
 
   const [offers, setOffers] = useState<any[]>([])
+  const [skip, setSkip] = useState(0)
 
   useEffect(() => {
 
@@ -47,12 +49,21 @@ export default function BasicTable() {
     }
     fetchData();
 
-  }, [])
+  }, [skip])
+
+  const handleScroll = (e: React.ChangeEvent<any>) => {
+    const { offsetHeight, scrollTop, scrollHeight} = e.target
+
+    if (offsetHeight + scrollTop === scrollHeight) {
+      setSkip(offers.length)
+    }
+  }
+
 
   const classes = useStyles();
 
   return (
-    <TableContainer component={Paper}>
+    <TableContainer component={Paper} onScroll={handleScroll}>
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
           <TableRow>
