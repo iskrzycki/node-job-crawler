@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -8,6 +8,7 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import NextWeekIcon from '@material-ui/icons/NextWeek';
+import ReactDOM from 'react-dom';
 
 const useStyles = makeStyles({
   table: {
@@ -15,7 +16,8 @@ const useStyles = makeStyles({
     width: '90%',
     marginLeft: 'auto',
     marginRight: 'auto',
-    overflowY: 'scroll'
+    overflowY: 'scroll',
+    overflowX: 'hidden'
   },
   tableCellHeader: {
     fontSize: '30px',
@@ -31,6 +33,11 @@ const useStyles = makeStyles({
   },
   applyIcon: {
     cursor: 'pointer'
+  },
+  wrapper: {
+    maxHeight: '1000px',
+    overflow: 'scroll',
+    overflowX: 'hidden'
   }
 });
 
@@ -39,13 +46,23 @@ export default function BasicTable() {
   const [offers, setOffers] = useState<any[]>([])
   const [skip, setSkip] = useState(0)
 
+  const tableRef = useRef<any>();
+
+  useEffect(() => {
+    // @ts-ignore
+    tableRef.current.onscroll = handleScroll
+  }, [])
+
+
   useEffect(() => {
 
+    console.log("use effect")
+
     const fetchData = async () => {
-      const response = await fetch("http://praca.bieda.it/api/offers")
+      const response = await fetch(`http://praca.bieda.it/api/offers?skip=${skip}`)
 
       const data = await response.json();
-      setOffers(data)
+      setOffers([...offers, ...data])
     }
     fetchData();
 
@@ -54,7 +71,10 @@ export default function BasicTable() {
   const handleScroll = (e: React.ChangeEvent<any>) => {
     const { offsetHeight, scrollTop, scrollHeight} = e.target
 
+    console.log(offsetHeight, scrollTop, scrollHeight)
+
     if (offsetHeight + scrollTop === scrollHeight) {
+      console.log("setskip: ", offers)
       setSkip(offers.length)
     }
   }
@@ -63,7 +83,8 @@ export default function BasicTable() {
   const classes = useStyles();
 
   return (
-    <TableContainer component={Paper} onScroll={handleScroll}>
+    <div className={classes.wrapper} ref={tableRef}>
+    <TableContainer component={Paper}>
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
           <TableRow>
@@ -96,5 +117,6 @@ export default function BasicTable() {
         </TableBody>
       </Table>
     </TableContainer>
+    </div>
   );
 }
