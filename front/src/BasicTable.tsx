@@ -8,6 +8,7 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
 import NextWeekIcon from "@material-ui/icons/NextWeek";
+import CircularProgress from "@material-ui/core/CircularProgress";
 
 const useStyles = makeStyles({
   tableCellHeader: {
@@ -36,6 +37,7 @@ const useStyles = makeStyles({
 export default function BasicTable() {
   const [offers, setOffers] = useState<any[]>([]); // TODO fix any
   const [skip, setSkip] = useState(0);
+  const [loading, setLoading] = useState(true)
 
   const tableRef = useRef<HTMLDivElement>();
 
@@ -131,6 +133,12 @@ export default function BasicTable() {
               </TableCell>
             </TableRow>
           ))}
+          {loading ? 
+          <TableRow>
+            <TableCell align="right">
+              <CircularProgress />
+            </TableCell>
+          </TableRow> : null}
         </TableBody>
       </Table>
     </TableContainer>
