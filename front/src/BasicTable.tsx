@@ -32,6 +32,10 @@ const useStyles = makeStyles({
     width: "100%",
     margin: "auto",
   },
+  spinnerContainer: {
+    marginLeft: '1000px',
+    width: '100%'
+  }
 });
 
 export default function BasicTable() {
@@ -46,6 +50,7 @@ export default function BasicTable() {
 
     if (offsetHeight + scrollTop === scrollHeight) {
       setSkip(offers.length);
+      setLoading(true);
     }
   }, [offers]);
 
@@ -56,11 +61,17 @@ export default function BasicTable() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(
-        `http://praca.bieda.it/api/offers?skip=${skip}`
-      );
-      const data = await response.json();
-      setOffers(offers => [...offers, ...data]);
+      try {
+        const response = await fetch(
+          `http://praca.bieda.it/api/offers?skip=${skip}`
+        )
+        const data = await response.json();
+        setLoading(false)
+        setOffers(offers => [...offers, ...data]);
+      } catch (err) {
+        alert('Failed loading data')
+      }
+
     };
     fetchData();
   }, [skip]);
@@ -133,12 +144,10 @@ export default function BasicTable() {
               </TableCell>
             </TableRow>
           ))}
-          {loading ? 
-          <TableRow>
-            <TableCell align="right">
+          {loading ?
+            <TableRow className={classes.spinnerContainer}>
               <CircularProgress />
-            </TableCell>
-          </TableRow> : null}
+            </TableRow> : null}
         </TableBody>
       </Table>
     </TableContainer>
