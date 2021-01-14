@@ -9,6 +9,7 @@ import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
 import NextWeekIcon from "@material-ui/icons/NextWeek";
 import CircularProgress from "@material-ui/core/CircularProgress";
+import { format } from 'date-fns';
 
 const useStyles = makeStyles({
   tableCellHeader: {
@@ -133,7 +134,7 @@ export default function BasicTable() {
                 {offer.source}
               </TableCell>
               <TableCell align="right" className={classes.tableCellContent}>
-                {offer.createdAt}
+                {format(new Date(offer.createdAt), 'dd/MM/yyyy - H:m')}
               </TableCell>
               <TableCell align="right" className={classes.tableCellContent}>
                 <NextWeekIcon
