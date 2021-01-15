@@ -8,6 +8,8 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
 import NextWeekIcon from "@material-ui/icons/NextWeek";
+import CircularProgress from "@material-ui/core/CircularProgress";
+import { format } from 'date-fns';
 
 const useStyles = makeStyles({
   tableCellHeader: {
@@ -31,11 +33,16 @@ const useStyles = makeStyles({
     width: "100%",
     margin: "auto",
   },
+  spinnerContainer: {
+    marginLeft: '1000px',
+    width: '100%'
+  }
 });
 
 export default function BasicTable() {
   const [offers, setOffers] = useState<any[]>([]); // TODO fix any
   const [skip, setSkip] = useState(0);
+  const [loading, setLoading] = useState(true)
 
   const tableRef = useRef<HTMLDivElement>();
 
@@ -44,6 +51,7 @@ export default function BasicTable() {
 
     if (offsetHeight + scrollTop === scrollHeight) {
       setSkip(offers.length);
+      setLoading(true);
     }
   }, [offers]);
 
@@ -54,11 +62,17 @@ export default function BasicTable() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(
-        `http://praca.bieda.it/api/offers?skip=${skip}`
-      );
-      const data = await response.json();
-      setOffers(offers => [...offers, ...data]);
+      try {
+        const response = await fetch(
+          `http://praca.bieda.it/api/offers?skip=${skip}`
+        )
+        const data = await response.json();
+        setLoading(false)
+        setOffers(offers => [...offers, ...data]);
+      } catch (err) {
+        alert('Failed loading data')
+      }
+
     };
     fetchData();
   }, [skip]);
@@ -120,7 +134,7 @@ export default function BasicTable() {
                 {offer.source}
               </TableCell>
               <TableCell align="right" className={classes.tableCellContent}>
-                {offer.createdAt}
+                {format(new Date(offer.createdAt), 'dd/MM/yyyy - H:m')}
               </TableCell>
               <TableCell align="right" className={classes.tableCellContent}>
                 <NextWeekIcon
@@ -131,6 +145,10 @@ export default function BasicTable() {
               </TableCell>
             </TableRow>
           ))}
+          {loading ?
+            <TableRow className={classes.spinnerContainer}>
+              <CircularProgress />
+            </TableRow> : null}
         </TableBody>
       </Table>
     </TableContainer>
