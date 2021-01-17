@@ -10,6 +10,10 @@ import Paper from "@material-ui/core/Paper";
 import NextWeekIcon from "@material-ui/icons/NextWeek";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import { format } from 'date-fns';
+import Snackbar from '@material-ui/core/Snackbar';
+import IconButton from '@material-ui/core/IconButton';
+import CloseIcon from '@material-ui/icons/Close';
+
 
 const useStyles = makeStyles({
   tableCellHeader: {
@@ -43,6 +47,7 @@ export default function BasicTable() {
   const [offers, setOffers] = useState<any[]>([]); // TODO fix any
   const [skip, setSkip] = useState(0);
   const [loading, setLoading] = useState(true)
+  const [openSnackbar, setOpenSnackbar] = useState(false)
 
   const tableRef = useRef<HTMLDivElement>();
 
@@ -70,7 +75,8 @@ export default function BasicTable() {
         setLoading(false)
         setOffers(offers => [...offers, ...data]);
       } catch (err) {
-        alert('Failed loading data')
+        setLoading(false)
+        setOpenSnackbar(true)
       }
 
     };
@@ -80,6 +86,7 @@ export default function BasicTable() {
   const classes = useStyles();
 
   return (
+
     <TableContainer
       component={Paper}
       className={classes.wrapper}
@@ -112,6 +119,22 @@ export default function BasicTable() {
           </TableRow>
         </TableHead>
         <TableBody>
+          {openSnackbar ? <Snackbar anchorOrigin={{
+            vertical: 'bottom',
+            horizontal: 'left',
+          }}
+            open={openSnackbar}
+            autoHideDuration={10000}
+            onClose={() => setOpenSnackbar(false)}
+            message="Failed to load data"
+            action={
+              <>
+                <IconButton size="small" aria-label="close" color="inherit" onClick={() => setOpenSnackbar(false)}>
+                  <CloseIcon fontSize="small" />
+                </IconButton>
+              </>
+            }
+          /> : null}
           {offers.map((offer) => (
             <TableRow key={offer._id}>
               <TableCell
