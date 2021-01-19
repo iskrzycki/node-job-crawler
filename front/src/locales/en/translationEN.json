@@ -1,0 +1,9 @@
+{
+    "position": "Position",
+    "salary": "Salary",
+    "location": "Location",
+    "company": "Company",
+    "source": "Source",
+    "create_date": "Create date",
+    "apply": "Apply"
+}

@@ -1,0 +1,9 @@
+{
+    "position": "Stanowisko",
+    "salary": "Stawka",
+    "location": "Lokalizacja",
+    "company": "Firma",
+    "source": "Źródło",
+    "create_date": "Data utworzenia",
+    "apply": "Aplikuj"
+}
