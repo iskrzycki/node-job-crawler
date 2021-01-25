@@ -1,0 +1,24 @@
+body {
+    color: black;
+}
+
+table {
+    font-size: 18px;
+    width: 85%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.Thread {
+    font-size: 30px;
+}
+
+table tr {
+    border-bottom: 1px solid lightgray;
+}
+
+table tr td {
+    font-size: 19px;
+    font-weight: 400;
+    padding: 10px;
+}

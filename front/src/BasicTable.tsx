@@ -15,6 +15,7 @@ import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@material-ui/core';
+import "./BasicTable.css";
 
 const useStyles = makeStyles({
   tableCellHeader: {
@@ -71,10 +72,10 @@ export default function BasicTable() {
     }
   }, [offers]);
 
-  useEffect(() => {
-    // @ts-ignore
-    tableRef.current.onscroll = handleScroll;
-  }, [handleScroll, offers]);
+  // useEffect(() => {
+  //   // @ts-ignore
+  //   tableRef.current.onscroll = handleScroll;
+  // }, [handleScroll, offers]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -98,7 +99,62 @@ export default function BasicTable() {
 
   return (
     <>
-      <TableContainer
+      <nav className={classes.languageBar}>
+        <Button variant="outlined" onClick={changeLanguage("en")}>EN</Button>
+        <Button variant="outlined" onClick={changeLanguage("pl")}>PL</Button>
+      </nav>
+      <table>
+        <thead className="Thread">
+          <tr>
+            <th scope="col">{t("position")}</th>
+            <th scope="col">{t("salary")}</th>
+            <th scope="col">{t("location")}</th>
+            <th scope="col">{t("company")}</th>
+            <th scope="col">{t("source")}</th>
+            <th scope="col">{t("create_date")}</th>
+            <th scope="col">{t("apply")}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {openSnackbar ? <Snackbar anchorOrigin={{
+            vertical: 'bottom',
+            horizontal: 'left',
+          }}
+            open={openSnackbar}
+            autoHideDuration={10000}
+            onClose={() => setOpenSnackbar(false)}
+            message="Failed to load data"
+            action={
+              <>
+                <IconButton size="small" aria-label="close" color="inherit" onClick={() => setOpenSnackbar(false)}>
+                  <CloseIcon fontSize="small" />
+                </IconButton>
+              </>
+            }
+          /> : null}
+          {offers.map((offer) => (
+            <tr key={offer._id} className="TableRow">
+              <td>{offer.position}</td>
+              <td>{offer.salary}</td>
+              <td>{offer.location}</td>
+              <td>{offer.company}</td>
+              <td>{offer.source}</td>
+              <td>{format(new Date(offer.createdAt), 'dd/MM/yyyy - H:m')}</td>
+              <td>
+                <NextWeekIcon
+                  className={classes.applyIcon}
+                  fontSize="large"
+                  onClick={() => window.open(offer.url)}/>
+                </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  );
+}
+
+/* <TableContainer
         component={Paper}
         className={classes.wrapper}
         ref={tableRef}
@@ -189,7 +245,4 @@ export default function BasicTable() {
               </TableRow> : null}
           </TableBody>
         </Table>
-      </TableContainer>
-    </>
-  );
-}
+      </TableContainer> */
