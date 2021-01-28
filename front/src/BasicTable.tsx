@@ -134,13 +134,13 @@ export default function BasicTable() {
           /> : null}
           {offers.map((offer) => (
             <tr key={offer._id} className="TableRow">
-              <td>{offer.position}</td>
-              <td>{offer.salary}</td>
-              <td>{offer.location}</td>
-              <td>{offer.company}</td>
-              <td>{offer.source}</td>
-              <td>{format(new Date(offer.createdAt), 'dd/MM/yyyy - H:m')}</td>
-              <td>
+              <td data-label={t("position")}>{offer.position}</td>
+              <td data-label={t("salary")}>{offer.salary}</td>
+              <td data-label={t("location")}>{offer.location}</td>
+              <td data-label={t("company")}>{offer.company}</td>
+              <td data-label={t("source")}>{offer.source}</td>
+              <td data-label={t("create_date")}>{format(new Date(offer.createdAt), 'dd/MM/yyyy - H:m')}</td>
+              <td data-label={t("apply")}>
                 <NextWeekIcon
                   className={classes.applyIcon}
                   fontSize="large"
