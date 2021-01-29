@@ -30,18 +30,12 @@ const useStyles = makeStyles({
     fontSize: "16px",
     width: "14%",
   },
-  applyIcon: {
-    cursor: "pointer",
-  },
   wrapper: {
     height: "100%",
     overflowY: "scroll",
     width: "100%",
     margin: "auto",
   },
-  languageBar: {
-    margin: '15px'
-  }
 });
 
 
@@ -99,12 +93,12 @@ export default function BasicTable() {
 
   return (
     <>
-      <nav className={classes.languageBar}>
+      <nav className="LanguageBar">
         <Button variant="outlined" onClick={changeLanguage("en")}>EN</Button>
         <Button variant="outlined" onClick={changeLanguage("pl")}>PL</Button>
       </nav>
       <table>
-        <thead className="Thread">
+        <thead>
           <tr>
             <th scope="col">{t("position")}</th>
             <th scope="col">{t("salary")}</th>
@@ -142,7 +136,7 @@ export default function BasicTable() {
               <td data-label={t("create_date")}>{format(new Date(offer.createdAt), 'dd/MM/yyyy - H:m')}</td>
               <td data-label={t("apply")}>
                 <NextWeekIcon
-                  className={classes.applyIcon}
+                  className="ApplyIcon"
                   fontSize="large"
                   onClick={() => window.open(offer.url)}/>
                 </td>

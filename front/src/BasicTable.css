@@ -2,35 +2,41 @@ body {
     color: black;
 }
 
+.LanguageBar {
+  margin: 15px;
+}
+
+.ApplyIcon {
+  cursor: pointer;
+}
+
 table {
     font-size: 18px;
-    width: 95%;
+    width: 100%;
     margin: auto;
     border-collapse: collapse;
 }
 
 thead {
     font-size: 30px;
-    margin-bottom: 10px;
 }
+
 
 table tr {
     border-bottom: 1px solid lightgray;
+    
 }
 
 table tr td {
     font-size: 19px;
     font-weight: 400;
-    padding: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 @media screen and (max-width: 600px) {
   table {
     border: 0;
-  }
-
-  table caption {
-    font-size: 1.3em;
   }
   
   table thead {
@@ -48,9 +54,8 @@ table tr td {
     border-bottom: 5px solid #ddd;
     display: block;
     margin-bottom: .625em;
-    margin-right: 10px;
   }
-  
+
   table td {
     border-bottom: 1px solid #ddd;
     display: block;
@@ -63,6 +68,7 @@ table tr td {
     float: left;
     font-weight: bold;
     text-transform: uppercase;
+    margin-right: 25px;
   }
   
   table td:last-child {
