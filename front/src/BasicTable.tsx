@@ -79,9 +79,7 @@ export default function BasicTable() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(
-          `http://praca.bieda.it/api/offers?skip=${skip}`
-        )
+        const response = await fetch(`/api/offers?skip=${skip}`)
         const data = await response.json();
         setLoading(false)
         setOffers(offers => [...offers, ...data]);
