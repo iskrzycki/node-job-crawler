@@ -6,7 +6,7 @@ const { noFluffMainParser } = require("./offerParsers/noFluffMainParser");
 const { sendEmail } = require("./emailService");
 const logger = require("./logger").logger;
 
-const { DB_USER, DB_PASS, DB_PORT, DB_SERVER } = process.env;
+const { DB_USER, DB_PASS, DB_PORT, DB_SERVER, DB_NAME } = process.env;
 
 const offers = require("./model");
 const { bulldogMainParser } = require("./offerParsers/bulldogMainParser");
@@ -15,7 +15,7 @@ const fetchPage = async (url) => await axios(url).then((res) => res.data);
 
 const uri = `mongodb://${DB_USER}:${encodeURIComponent(
   DB_PASS
-)}@${DB_SERVER}:${DB_PORT}`;
+)}@${DB_SERVER}:${DB_PORT}/${DB_NAME}`;
 
 mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
 
