@@ -5,11 +5,11 @@ require("dotenv").config({ path: __dirname + "/.env" });
 const router = express.Router();
 const offers = require("./model");
 
-const { DB_USER, DB_PASS, DB_PORT, DB_SERVER, API_PORT } = process.env;
+const { DB_USER, DB_PASS, DB_PORT, DB_SERVER, DB_NAME, API_PORT } = process.env;
 
 const uri = `mongodb://${DB_USER}:${encodeURIComponent(
   DB_PASS
-)}@${DB_SERVER}:${DB_PORT}`;
+)}@${DB_SERVER}:${DB_PORT}/${DB_NAME}`;
 
 mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
 
