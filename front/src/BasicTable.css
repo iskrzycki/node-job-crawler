@@ -24,14 +24,13 @@ thead {
 
 table tr {
     border-bottom: 1px solid lightgray;
-    
 }
 
 table tr td {
     font-size: 19px;
     font-weight: 400;
     padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 30px;   
 }
 
 @media screen and (max-width: 600px) {
@@ -48,6 +47,7 @@ table tr td {
     padding: 0;
     position: absolute;
     width: 1px;
+    
   }
   
   table tr {
@@ -61,6 +61,7 @@ table tr td {
     display: block;
     font-size: .8em;
     text-align: right;
+    padding: 20px;
   }
   
   table td::before {

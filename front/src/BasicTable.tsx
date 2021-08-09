@@ -44,8 +44,8 @@ export default function BasicTable() {
   const [skip, setSkip] = useState(0);
   const [loading, setLoading] = useState(true)
   const [openSnackbar, setOpenSnackbar] = useState(false)
-
-  const tableRef = useRef<HTMLDivElement>();
+  
+  const tableRef = useRef<any>();
 
   const { t, i18n } = useTranslation();
 
@@ -66,10 +66,11 @@ export default function BasicTable() {
     }
   }, [offers]);
 
-  // useEffect(() => {
-  //   // @ts-ignore
-  //   tableRef.current.onscroll = handleScroll;
-  // }, [handleScroll, offers]);
+  useEffect(() => {
+    // @ts-ignore
+    tableRef.current.onscroll = handleScroll;
+    console.log('tableRef: ', tableRef);
+  }, [handleScroll, offers]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -92,12 +93,18 @@ export default function BasicTable() {
   const classes = useStyles();
 
   return (
-    <>
+    
+    <TableContainer
+        component={Paper}
+        className={classes.wrapper}
+        ref={tableRef}
+      >
       <nav className="LanguageBar">
         <Button variant="outlined" onClick={changeLanguage("en")}>EN</Button>
         <Button variant="outlined" onClick={changeLanguage("pl")}>PL</Button>
       </nav>
-      <table>
+      {/* @ts-ignore */}    { /*TODO FIX  - infinite scroll not working*/}
+      <table>  
         <thead>
           <tr>
             <th scope="col">{t("position")}</th>
@@ -142,9 +149,13 @@ export default function BasicTable() {
                 </td>
             </tr>
           ))}
+          {loading ?
+              <tr>
+                <CircularProgress />
+              </tr> : null}
         </tbody>
       </table>
-    </>
+      </TableContainer>
   );
 }
 
