@@ -2,6 +2,12 @@ body {
     color: black;
 }
 
+.TableWrapper {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
 .LanguageBar {
   margin: 15px;
 }
