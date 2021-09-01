@@ -1,12 +1,4 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Table from "@material-ui/core/Table";
-import TableBody from "@material-ui/core/TableBody";
-import TableCell from "@material-ui/core/TableCell";
-import TableContainer from "@material-ui/core/TableContainer";
-import TableHead from "@material-ui/core/TableHead";
-import TableRow from "@material-ui/core/TableRow";
-import Paper from "@material-ui/core/Paper";
 import NextWeekIcon from "@material-ui/icons/NextWeek";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import { format } from 'date-fns';
@@ -15,33 +7,7 @@ import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@material-ui/core';
-
-const useStyles = makeStyles({
-  tableCellHeader: {
-    fontSize: "30px",
-    textAlign: "center",
-    margin: "15px",
-    fontWeight: 600,
-    width: "14%",
-  },
-  tableCellContent: {
-    textAlign: "center",
-    fontSize: "16px",
-    width: "14%",
-  },
-  applyIcon: {
-    cursor: "pointer",
-  },
-  wrapper: {
-    height: "100%",
-    overflowY: "scroll",
-    width: "100%",
-    margin: "auto",
-  },
-  languageBar: {
-    margin: '15px'
-  }
-});
+import "./BasicTable.css";
 
 
 export default function BasicTable() {
@@ -49,8 +15,8 @@ export default function BasicTable() {
   const [skip, setSkip] = useState(0);
   const [loading, setLoading] = useState(true)
   const [openSnackbar, setOpenSnackbar] = useState(false)
-
-  const tableRef = useRef<HTMLDivElement>();
+  
+  const tableRef = useRef<HTMLDivElement>(null);
 
   const { t, i18n } = useTranslation();
 
@@ -92,46 +58,26 @@ export default function BasicTable() {
     fetchData();
   }, [skip]);
 
-  const classes = useStyles();
-
   return (
-    <>
-      <TableContainer
-        component={Paper}
-        className={classes.wrapper}
-        ref={tableRef}
-      >
-        <nav className={classes.languageBar}>
+    
+    <div className="TableWrapper" ref={tableRef}>
+        <nav className="LanguageBar">
           <Button variant="outlined" onClick={changeLanguage("en")}>EN</Button>
           <Button variant="outlined" onClick={changeLanguage("pl")}>PL</Button>
         </nav>
-        <Table aria-label="simple table">
-          <TableHead>
-            <TableRow>
-              <TableCell align="right" className={classes.tableCellHeader}>
-                {t("position")}
-              </TableCell>
-              <TableCell align="right" className={classes.tableCellHeader}>
-                {t("salary")}
-              </TableCell>
-              <TableCell align="right" className={classes.tableCellHeader}>
-                {t("location")}
-              </TableCell>
-              <TableCell align="right" className={classes.tableCellHeader}>
-                {t("company")}
-              </TableCell>
-              <TableCell align="right" className={classes.tableCellHeader}>
-                {t("source")}
-              </TableCell>
-              <TableCell align="right" className={classes.tableCellHeader}>
-                {t("create_date")}
-              </TableCell>
-              <TableCell align="right" className={classes.tableCellHeader}>
-                {t("apply")}
-              </TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
+        <table>  
+          <thead>
+            <tr>
+              <th scope="col">{t("position")}</th>
+              <th scope="col">{t("salary")}</th>
+              <th scope="col">{t("location")}</th>
+              <th scope="col">{t("company")}</th>
+              <th scope="col">{t("source")}</th>
+              <th scope="col">{t("create_date")}</th>
+              <th scope="col">{t("apply")}</th>
+            </tr>
+          </thead>
+          <tbody>
             {openSnackbar ? <Snackbar anchorOrigin={{
               vertical: 'bottom',
               horizontal: 'left',
@@ -149,45 +95,27 @@ export default function BasicTable() {
               }
             /> : null}
             {offers.map((offer) => (
-              <TableRow key={offer._id}>
-                <TableCell
-                  component="th"
-                  scope="row"
-                  className={classes.tableCellContent}
-                >
-                  {offer.position}
-                </TableCell>
-                <TableCell align="right" className={classes.tableCellContent}>
-                  {offer.salary}
-                </TableCell>
-                <TableCell align="right" className={classes.tableCellContent}>
-                  {offer.location}
-                </TableCell>
-                <TableCell align="right" className={classes.tableCellContent}>
-                  {offer.company}
-                </TableCell>
-                <TableCell align="right" className={classes.tableCellContent}>
-                  {offer.source}
-                </TableCell>
-                <TableCell align="right" className={classes.tableCellContent}>
-                  {format(new Date(offer.createdAt), 'dd/MM/yyyy - H:m')}
-                </TableCell>
-                <TableCell align="right" className={classes.tableCellContent}>
+              <tr key={offer._id} className="TableRow">
+                <td data-label={t("position")}>{offer.position ? offer.position : "?"}</td>
+                <td data-label={t("salary")}>{offer.salary}</td>
+                <td data-label={t("location")}>{offer.location}</td>
+                <td data-label={t("company")}>{offer.company}</td>
+                <td data-label={t("source")}>{offer.source}</td>
+                <td data-label={t("create_date")}>{format(new Date(offer.createdAt), 'dd/MM/yyyy - H:m')}</td>
+                <td data-label={t("apply")}>
                   <NextWeekIcon
-                    className={classes.applyIcon}
+                    className="ApplyIcon"
                     fontSize="large"
-                    onClick={() => window.open(offer.url)}
-                  />
-                </TableCell>
-              </TableRow>
+                    onClick={() => window.open(offer.url)}/>
+                  </td>
+              </tr>
             ))}
             {loading ?
-              <TableRow>
-                <CircularProgress />
-              </TableRow> : null}
-          </TableBody>
-        </Table>
-      </TableContainer>
-    </>
+                <tr>
+                  <CircularProgress />
+                </tr> : null}
+          </tbody>
+      </table>
+      </div>
   );
 }
