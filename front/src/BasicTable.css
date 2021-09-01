@@ -1,5 +1,5 @@
 body {
-    color: black;
+  color: black;
 }
 
 .TableWrapper {
@@ -27,7 +27,6 @@ thead {
     font-size: 30px;
 }
 
-
 table tr {
     border-bottom: 1px solid lightgray;
 }
@@ -53,7 +52,6 @@ table tr td {
     padding: 0;
     position: absolute;
     width: 1px;
-    
   }
   
   table tr {

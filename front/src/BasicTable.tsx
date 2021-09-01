@@ -16,7 +16,7 @@ export default function BasicTable() {
   const [loading, setLoading] = useState(true)
   const [openSnackbar, setOpenSnackbar] = useState(false)
   
-  const tableRef = useRef<any>();
+  const tableRef = useRef<HTMLDivElement>(null);
 
   const { t, i18n } = useTranslation();
 
@@ -61,12 +61,12 @@ export default function BasicTable() {
   }, [skip]);
 
   return (
+    
     <div className="TableWrapper" ref={tableRef}>
         <nav className="LanguageBar">
           <Button variant="outlined" onClick={changeLanguage("en")}>EN</Button>
           <Button variant="outlined" onClick={changeLanguage("pl")}>PL</Button>
         </nav>
-        {/* @ts-ignore */}
         <table>  
           <thead>
             <tr>
@@ -98,7 +98,7 @@ export default function BasicTable() {
             /> : null}
             {offers.map((offer) => (
               <tr key={offer._id} className="TableRow">
-                <td data-label={t("position")}>{offer.position}</td>
+                <td data-label={t("position")}>{offer.position ? offer.position : "?"}</td>
                 <td data-label={t("salary")}>{offer.salary}</td>
                 <td data-label={t("location")}>{offer.location}</td>
                 <td data-label={t("company")}>{offer.company}</td>
