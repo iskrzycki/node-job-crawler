@@ -20,8 +20,13 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build and push Docker image
+      - name: Build and push front Docker image
         working-directory: ./front
         run: |
           docker build -t iskrzycki/job-crawler:front .
           docker push iskrzycki/job-crawler:front
+
+      - name: Build and push front Docker image
+        run: |
+            docker build -t iskrzycki/job-crawler:server .
+            docker push iskrzycki/job-crawler:server
