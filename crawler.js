@@ -27,29 +27,43 @@ connection.once("open", async () => {
 
   logger.info(`${allOffers.length} offers currently in database`);
 
-  const noFluffUrl = "https://nofluffjobs.com/pl/jobs/frontend";
-  const noFluffHtml = await fetchPage(noFluffUrl);
-  const noFluffOffers = noFluffMainParser(noFluffHtml).filter(
-    (offer) => !urls.includes(offer.url)
-  );
+  let noFluffOffers = [];
+  let justJoinOffers = [];
+  let bulldogOffers = [];
 
-  logger.info(`${noFluffOffers.length} new offers on nofluffjobs`);
+  try {
+    const noFluffUrl = "https://nofluffjobs.com/pl/jobs/frontend";
+    const noFluffHtml = await fetchPage(noFluffUrl);
+    noFluffOffers = noFluffMainParser(noFluffHtml).filter(
+      (offer) => !urls.includes(offer.url)
+    );
 
-  const justJoinUrl = "https://justjoin.it/api/offers";
-  const justJoinHtml = await fetchPage(justJoinUrl);
-  const justJoinOffers = justJoinMainParser(justJoinHtml).filter(
-    (offer) => !urls.includes(offer.url)
-  );
+    logger.info(`${noFluffOffers.length} new offers on nofluffjobs`);
+  } catch (e) {
+    logger.warn(`error during nofluff scraping`);
+  }
 
-  logger.info(`${justJoinOffers.length} new offers on justjoin`);
+  // TODO justjoint temporary commented out. API disabled, so needs to be handled by parsing HTML
 
-  const bulldogUrl = "https://bulldogjob.pl/companies/jobs/s/role,frontend";
-  const bulldogHtml = await fetchPage(bulldogUrl);
-  const bulldogOffers = bulldogMainParser(bulldogHtml).filter(
-    (offer) => !urls.includes(offer.url)
-  );
+  // const justJoinUrl = "https://justjoin.it/api/offers";
+  // const justJoinHtml = await fetchPage(justJoinUrl);
+  // justJoinOffers = justJoinMainParser(justJoinHtml).filter(
+  //   (offer) => !urls.includes(offer.url)
+  // );
 
-  logger.info(`${bulldogOffers.length} new offers on bulldogjob`);
+  // logger.info(`${justJoinOffers.length} new offers on justjoin`);
+
+  try {
+    const bulldogUrl = "https://bulldogjob.pl/companies/jobs/s/role,frontend";
+    const bulldogHtml = await fetchPage(bulldogUrl);
+    bulldogOffers = bulldogMainParser(bulldogHtml).filter(
+      (offer) => !urls.includes(offer.url)
+    );
+
+    logger.info(`${bulldogOffers.length} new offers on bulldogjob`);
+  } catch (e) {
+    logger.warn(`error during bulldog scraping`);
+  }
 
   const mergedOffers = [...noFluffOffers, ...justJoinOffers, ...bulldogOffers];
 

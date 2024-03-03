@@ -23,17 +23,17 @@ const noFluffMainParser = (html) => {
 
     const company = extractText(
       $(salaryElem),
-      "nfj-posting-item-title span.posting-title__company"
+      "footer > h4"
     ).replace("w ", "");
 
     const location = extractText(
       $(salaryElem),
-      "div.posting-info > span.posting-info__location"
-    );
+      "nfj-posting-item-city > div > span"
+    ).replace(/ +(?= )/g, ""); // removing multiple spaces;
 
     const salary = extractText(
       $(salaryElem),
-      "div.posting-info > nfj-posting-item-tags > span.salary"
+      "nfj-posting-item-salary > span.salary"
     ).replace(/ +(?= )/g, ""); // removing multiple spaces
 
     jobs.push({
