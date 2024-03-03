@@ -31,7 +31,7 @@ router.get("/offers", async (req, res) => {
   }
 });
 
-app.use(express.static(__dirname + "/front/build"));
+// app.use(express.static(__dirname + "/front/build"));
 app.use("/api", router);
 
 app.listen(API_PORT, () => console.log(`App listening on port ${API_PORT}`));

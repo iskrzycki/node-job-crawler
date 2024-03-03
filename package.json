@@ -23,6 +23,7 @@
     "express": "^4.17.1",
     "moment": "^2.29.1",
     "mongoose": "^5.10.15",
+    "node-cron": "^3.0.3",
     "winston": "^3.3.3"
   },
   "devDependencies": {
