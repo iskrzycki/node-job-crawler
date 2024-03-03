@@ -19,11 +19,9 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          
-      - name: Change to 'front' directory
-        run: cd front
 
       - name: Build and push Docker image
+        working-directory: ./front
         run: |
           docker build -t iskrzycki/job-crawler:front .
           docker push iskrzycki/job-crawler:front
