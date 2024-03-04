@@ -11,7 +11,7 @@ const { DB_USER, DB_PASS, DB_PORT, DB_SERVER, DB_NAME } = process.env;
 
 const uri = `mongodb://${DB_USER}:${encodeURIComponent(
   DB_PASS
-)}@${DB_SERVER}:${DB_PORT}/${DB_NAME}`;
+)}@${DB_SERVER}:${DB_PORT}/${DB_NAME}?authSource=admin`;
 
 console.log("Connecting to ", uri);
 
