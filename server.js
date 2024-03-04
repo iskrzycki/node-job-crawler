@@ -12,6 +12,8 @@ const uri = `mongodb://${DB_USER}:${encodeURIComponent(
   DB_PASS
 )}@${DB_SERVER}:${DB_PORT}/${DB_NAME}`;
 
+console.log('Connecting to ', uri);
+
 mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
 
 router.get("/offers", async (req, res) => {
