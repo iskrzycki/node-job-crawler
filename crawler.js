@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 require("dotenv").config({ path: __dirname + "/.env" });
 const { justJoinMainParser } = require("./offerParsers/justJoinMainParser");
 const { noFluffMainParser } = require("./offerParsers/noFluffMainParser");
-const { sendEmail } = require("./emailService");
 const logger = require("./logger").logger;
 
 const { DB_USER, DB_PASS, DB_PORT, DB_SERVER, DB_NAME } = process.env;

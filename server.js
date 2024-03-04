@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
+const crawler = require("./crawler");
 require("dotenv").config({ path: __dirname + "/.env" });
 const router = express.Router();
 const offers = require("./model");
