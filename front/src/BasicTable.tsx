@@ -9,6 +9,8 @@ import { useTranslation } from 'react-i18next';
 import { Button } from '@material-ui/core';
 import "./BasicTable.css";
 
+const { BACKEND_URL } = process.env;
+console.log(process.env)
 
 export default function BasicTable() {
   const [offers, setOffers] = useState<any[]>([]); // TODO fix any
@@ -19,7 +21,6 @@ export default function BasicTable() {
   const tableRef = useRef<HTMLDivElement>(null);
 
   const { t, i18n } = useTranslation();
-
 
   //@ts-ignore
   const changeLanguage = (ln) => {
@@ -45,7 +46,7 @@ export default function BasicTable() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`/api/offers?skip=${skip}`)
+        const response = await fetch(`${BACKEND_URL}/api/offers?skip=${skip}`)
         const data = await response.json();
         setLoading(false)
         setOffers(offers => [...offers, ...data]);

@@ -6,7 +6,7 @@ require("dotenv").config({ path: __dirname + "/.env" });
 const router = express.Router();
 const offers = require("./model");
 
-const { DB_USER, DB_PASS, DB_PORT, DB_SERVER, DB_NAME, API_PORT } = process.env;
+const { DB_USER, DB_PASS, DB_PORT, DB_SERVER, DB_NAME } = process.env;
 
 const uri = `mongodb://${DB_USER}:${encodeURIComponent(
   DB_PASS
@@ -32,7 +32,6 @@ router.get("/offers", async (req, res) => {
   }
 });
 
-// app.use(express.static(__dirname + "/front/build"));
 app.use("/api", router);
 
-app.listen(API_PORT, () => console.log(`App listening on port ${API_PORT}`));
+app.listen(3000, () => console.log(`App listening on port 3000`));
