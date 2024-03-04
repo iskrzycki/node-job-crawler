@@ -9,9 +9,6 @@ import { useTranslation } from 'react-i18next';
 import { Button } from '@material-ui/core';
 import "./BasicTable.css";
 
-const { BACKEND_URL } = process.env;
-console.log(process.env)
-
 export default function BasicTable() {
   const [offers, setOffers] = useState<any[]>([]); // TODO fix any
   const [skip, setSkip] = useState(0);
@@ -46,7 +43,8 @@ export default function BasicTable() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`${BACKEND_URL}/api/offers?skip=${skip}`)
+        // TODO use .env
+        const response = await fetch(`https://jobs-api.iskrzycki.ovh/api/offers?skip=${skip}`)
         const data = await response.json();
         setLoading(false)
         setOffers(offers => [...offers, ...data]);
