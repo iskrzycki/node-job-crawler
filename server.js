@@ -35,6 +35,17 @@ router.get("/offers", async (req, res) => {
   }
 });
 
+router.get("/crawl", async (req, res) => {
+  try {
+    const result = await crawler.crawl();
+    return res.send({ result });
+  } catch (ex) {
+    return res.status(400).send({
+      message: "An error occured",
+    });
+  }
+});
+
 app.use(cors()); // TODO consider setting proper origin here
 
 app.use("/api", router);
