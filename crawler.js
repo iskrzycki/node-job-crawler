@@ -6,16 +6,10 @@ const { justJoinMainParser } = require("./offerParsers/justJoinMainParser");
 const { noFluffMainParser } = require("./offerParsers/noFluffMainParser");
 const logger = require("./logger").logger;
 
-const { DB_USER, DB_PASS, DB_PORT, DB_SERVER, DB_NAME } = process.env;
-
 const offers = require("./model");
 const { bulldogMainParser } = require("./offerParsers/bulldogMainParser");
 
 const fetchPage = async (url) => await axios(url).then((res) => res.data);
-
-const uri = `mongodb://${DB_USER}:${encodeURIComponent(
-  DB_PASS
-)}@${DB_SERVER}:${DB_PORT}/${DB_NAME}?authSource=admin`;
 
 const crawl = async () => {
   const allOffers = await offers.find({});
@@ -75,19 +69,16 @@ const crawl = async () => {
   return message;
 };
 
-// five minutes after every hour
-const registerCron = (cronPattern = "5 * * * *") => {
+// 35 minutes after every hour
+const registerCron = (cronPattern = "35 * * * *") => {
   console.log("CRON task registered. pattern: ", cronPattern);
-  cron.schedule(cronPattern, () => {
-    console.log("Hello from cron");
-    mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
+  cron.schedule(cronPattern, async () => {
+    console.log("[CRON] start");
 
-    const connection = mongoose.connection;
-
-    connection.once("open", async () => {
+    if (mongoose.connection.readyState === 1) {
+      console.log("[CRON] crawling");
       await crawl();
-      mongoose.disconnect();
-    });
+    }
   });
 };
 
