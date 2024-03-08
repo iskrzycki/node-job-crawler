@@ -76,18 +76,22 @@ const crawl = async () => {
 };
 
 // five minutes after every hour
-cron.schedule("5 * * * *", () => {
-  console.log("Hello from cron");
-  mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
+const registerCron = (cronPattern = "5 * * * *") => {
+  console.log("CRON task registered. pattern: ", cronPattern);
+  cron.schedule(cronPattern, () => {
+    console.log("Hello from cron");
+    mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
 
-  const connection = mongoose.connection;
+    const connection = mongoose.connection;
 
-  connection.once("open", async () => {
-    await crawl();
-    mongoose.disconnect();
+    connection.once("open", async () => {
+      await crawl();
+      mongoose.disconnect();
+    });
   });
-});
+};
 
 module.exports = {
   crawl,
+  registerCron,
 };

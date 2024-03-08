@@ -46,6 +46,8 @@ router.get("/crawl", async (req, res) => {
   }
 });
 
+crawler.registerCron();
+
 app.use(cors()); // TODO consider setting proper origin here
 
 app.use("/api", router);
