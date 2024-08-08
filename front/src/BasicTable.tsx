@@ -9,42 +9,56 @@ import { useTranslation } from 'react-i18next';
 import { Button } from '@material-ui/core';
 import "./BasicTable.css";
 
-export default function BasicTable() {
-  const [offers, setOffers] = useState<any[]>([]); // TODO fix any
+
+interface OffersTypes {
+      _id: string,
+      position: string,
+      salary: string,
+      location: string,
+      company: string,
+      source: string,
+      createdAt: string,
+      url: string
+}
+
+const BasicTable: React.FC = () => {
+  const [offers, setOffers] = useState<OffersTypes[]>([]);
   const [skip, setSkip] = useState(0);
   const [loading, setLoading] = useState(true)
   const [openSnackbar, setOpenSnackbar] = useState(false)
   
   const tableRef = useRef<HTMLDivElement>(null);
+  const apiUrl = process.env.REACT_APP_API_URL
+  
+
 
   const { t, i18n } = useTranslation();
 
-  //@ts-ignore
-  const changeLanguage = (ln) => {
+  
+  const changeLanguage = (ln: string) => {
     return () => {
       i18n.changeLanguage(ln)
     }
   }
 
-  const handleScroll = useCallback((e: React.ChangeEvent<any>) => {
-    const { offsetHeight, scrollTop, scrollHeight } = e.target;
+  const handleScroll = useCallback((e: Event) => {
+    const { offsetHeight, scrollTop, scrollHeight } = e.target as HTMLElement;
 
     if (offsetHeight + scrollTop === scrollHeight) {
       setSkip(offers.length);
       setLoading(true);
     }
   }, [offers]);
-
+  
   useEffect(() => {
-    // @ts-ignore
-    tableRef.current.onscroll = handleScroll;
+    tableRef.current!.onscroll = handleScroll;
   }, [handleScroll, offers]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // TODO use .env
-        const response = await fetch(`https://jobs-api.iskrzycki.ovh/api/offers?skip=${skip}`)
+        console.log("API URL", apiUrl)
+        const response = await fetch(`${apiUrl}?skip=${skip}`)
         const data = await response.json();
         setLoading(false)
         setOffers(offers => [...offers, ...data]);
@@ -118,3 +132,5 @@ export default function BasicTable() {
       </div>
   );
 }
+
+export default BasicTable
