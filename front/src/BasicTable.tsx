@@ -8,21 +8,21 @@ import CloseIcon from '@material-ui/icons/Close';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@material-ui/core';
 import "./BasicTable.css";
+import { Types } from 'mongoose'
 
-
-interface OffersTypes {
-      _id: string,
+interface Offer {
+      _id: Types.ObjectId,
       position: string,
-      salary: string,
-      location: string,
+      salary?: string,
+      location?: string,
       company: string,
-      source: string,
+      source: "nofluffjobs" | "bulldogjob" | "justjoinit",
       createdAt: string,
       url: string
 }
 
 const BasicTable: React.FC = () => {
-  const [offers, setOffers] = useState<OffersTypes[]>([]);
+  const [offers, setOffers] = useState<Offer[]>([]);
   const [skip, setSkip] = useState(0);
   const [loading, setLoading] = useState(true)
   const [openSnackbar, setOpenSnackbar] = useState(false)
@@ -31,11 +31,10 @@ const BasicTable: React.FC = () => {
   const apiUrl = process.env.REACT_APP_API_URL
   
 
-
   const { t, i18n } = useTranslation();
 
   
-  const changeLanguage = (ln: string) => {
+  const changeLanguage = (ln: "en" | "pl") => {
     return () => {
       i18n.changeLanguage(ln)
     }
@@ -57,7 +56,6 @@ const BasicTable: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        console.log("API URL", apiUrl)
         const response = await fetch(`${apiUrl}?skip=${skip}`)
         const data = await response.json();
         setLoading(false)
@@ -108,7 +106,7 @@ const BasicTable: React.FC = () => {
               }
             /> : null}
             {offers.map((offer) => (
-              <tr key={offer._id} className="TableRow">
+              <tr key={offer._id.toString()} className="TableRow">
                 <td data-label={t("position")}>{offer.position ? offer.position : "?"}</td>
                 <td data-label={t("salary")}>{offer.salary}</td>
                 <td data-label={t("location")}>{offer.location}</td>
