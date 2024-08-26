@@ -8,43 +8,55 @@ import CloseIcon from '@material-ui/icons/Close';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@material-ui/core';
 import "./BasicTable.css";
+import { Types } from 'mongoose'
 
-export default function BasicTable() {
-  const [offers, setOffers] = useState<any[]>([]); // TODO fix any
+interface Offer {
+      _id: Types.ObjectId,
+      position: string,
+      salary?: string,
+      location?: string,
+      company: string,
+      source: "nofluffjobs" | "bulldogjob" | "justjoinit",
+      createdAt: string,
+      url: string
+}
+
+const BasicTable: React.FC = () => {
+  const [offers, setOffers] = useState<Offer[]>([]);
   const [skip, setSkip] = useState(0);
   const [loading, setLoading] = useState(true)
   const [openSnackbar, setOpenSnackbar] = useState(false)
   
   const tableRef = useRef<HTMLDivElement>(null);
+  const apiUrl = process.env.REACT_APP_API_URL
+  
 
   const { t, i18n } = useTranslation();
 
-  //@ts-ignore
-  const changeLanguage = (ln) => {
+  
+  const changeLanguage = (ln: "en" | "pl") => {
     return () => {
       i18n.changeLanguage(ln)
     }
   }
 
-  const handleScroll = useCallback((e: React.ChangeEvent<any>) => {
-    const { offsetHeight, scrollTop, scrollHeight } = e.target;
+  const handleScroll = useCallback((e: Event) => {
+    const { offsetHeight, scrollTop, scrollHeight } = e.target as HTMLElement;
 
     if (offsetHeight + scrollTop === scrollHeight) {
       setSkip(offers.length);
       setLoading(true);
     }
   }, [offers]);
-
+  
   useEffect(() => {
-    // @ts-ignore
-    tableRef.current.onscroll = handleScroll;
+    tableRef.current!.onscroll = handleScroll;
   }, [handleScroll, offers]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // TODO use .env
-        const response = await fetch(`https://jobs-api.iskrzycki.ovh/api/offers?skip=${skip}`)
+        const response = await fetch(`${apiUrl}?skip=${skip}`)
         const data = await response.json();
         setLoading(false)
         setOffers(offers => [...offers, ...data]);
@@ -94,7 +106,7 @@ export default function BasicTable() {
               }
             /> : null}
             {offers.map((offer) => (
-              <tr key={offer._id} className="TableRow">
+              <tr key={offer._id.toString()} className="TableRow">
                 <td data-label={t("position")}>{offer.position ? offer.position : "?"}</td>
                 <td data-label={t("salary")}>{offer.salary}</td>
                 <td data-label={t("location")}>{offer.location}</td>
@@ -118,3 +130,5 @@ export default function BasicTable() {
       </div>
   );
 }
+
+export default BasicTable
